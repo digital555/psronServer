@@ -31,10 +31,11 @@ namespace WindowsFormsApplication1
         UdpClient udpClient2 = new UdpClient(11001);
         UdpClient udpClient3 = new UdpClient();
 
-        string sqlConnectionData = "Server=localhost; Uid=root; Pwd=; Database=psron";
+        string sqlConnectionDataLocal = "Server=localhost; Uid=root; Pwd=; Database=psron";
+        
 
-        /*Image piesStoi = Image.FromFile("stoi.png");
-        Image piesSiedzi = Image.FromFile("siedzi.png");*/
+        Image piesStoi = Image.FromFile("stoi.png");
+        Image piesSiedzi = Image.FromFile("siedzi.png");
 
         public Form1()
         {
@@ -159,6 +160,15 @@ namespace WindowsFormsApplication1
                 if (Dog.Substring(0, 3) == "IMU")
                 {
                     DogIMU = Dog.Split('\t');
+                    int pieseueue = Int32.Parse(DogIMU[3].Substring(0, 3));
+                    if (pieseueue > 185 | pieseueue < 165)
+                    {
+                        pictureBox7.Image = piesSiedzi;
+                    } else
+                    {
+                        pictureBox7.Image = piesStoi;
+                    }
+
                     Console.WriteLine(Dog);
                 }
 
@@ -261,16 +271,20 @@ namespace WindowsFormsApplication1
 
         private void SqlConn(string Lat, string Lng)
         {
-            MySqlConnection connection = new MySqlConnection(sqlConnectionData);
-            MySqlCommand cmd;
-            connection.Open();
+            MySqlConnection connectionLocal = new MySqlConnection(sqlConnectionDataLocal);
+
+            MySqlCommand cmdL;
+
+            connectionLocal.Open();
+
 
             try
             {
-                cmd = connection.CreateCommand();
-                cmd.CommandText = "UPDATE coordinates SET Lat = " + Lat.Substring(0, Lat.Length -1) + " , Lng = " + Lng.Substring(0, Lng.Length - 1) + "  WHERE id = 2";
+                cmdL = connectionLocal.CreateCommand();
+
+                cmdL.CommandText = "UPDATE coordinates SET Lat = " + Lat.Substring(0, Lat.Length -1) + " , Lng = " + Lng.Substring(0, Lng.Length - 1) + "  WHERE id = 2";
                 //MessageBox.Show(cmd.CommandText);
-                cmd.ExecuteNonQuery();
+                cmdL.ExecuteNonQuery();
             }
             catch (Exception e)
             {
@@ -279,7 +293,7 @@ namespace WindowsFormsApplication1
             }
             finally
             {
-                connection.Close();
+                connectionLocal.Close();
             }
 
         }
