@@ -46,13 +46,15 @@ namespace WindowsFormsApplication1
 
             mControlSmartPhone.Init();
 
+            InitializePB(pictureBox1);
+            InitializePB(pictureBox2);
+
             webBrowser1.Navigate("http://localhost/jakistest/test.html");
             //webBrowser1.Navigate("http://cyberdog.herokuapp.com/users/sign_in");
             //webBrowser1.Navigate("http://cyberdog.herokuapp.com/operation_map");
 
-
-
-
+            textBox2.Text = "udp://@192.168.1.100:1234";
+            textBox3.Text = "192.168.1.120";
         }
 
         private void tableLayoutPanel1_Paint(object sender, PaintEventArgs e)
@@ -81,8 +83,8 @@ namespace WindowsFormsApplication1
 
         public void appendText(string str)
         {            
-            {
-                /*string[] macierz_danych = str.Split(' ');
+            /*{
+                string[] macierz_danych = str.Split(' ');
 
                 label4.Invoke((MethodInvoker)delegate
                 {
@@ -92,13 +94,13 @@ namespace WindowsFormsApplication1
                 label5.Invoke((MethodInvoker)delegate
                 {
                     label5.Text = macierz_danych[1];
-                });*/
+                });
 
                 label6.Invoke((MethodInvoker)delegate
                 {
                     label6.Text = wid;
                 });
-            }
+            }*/
 
 
             /*if (richTextBox1.InvokeRequired)
@@ -160,13 +162,18 @@ namespace WindowsFormsApplication1
                 if (Dog.Substring(0, 3) == "IMU")
                 {
                     DogIMU = Dog.Split('\t');
-                    int pieseueue = Int32.Parse(DogIMU[3].Substring(0, 3));
-                    if (pieseueue > 185 | pieseueue < 165)
+                    if (DogIMU.Length > 3)
                     {
-                        pictureBox7.Image = piesSiedzi;
-                    } else
-                    {
-                        pictureBox7.Image = piesStoi;
+                        int pieseueue = Int32.Parse(DogIMU[3].Substring(0, 3));
+                        
+                        if (pieseueue > 185 | pieseueue < 165)
+                        {
+                            pictureBox7.Image = new Bitmap(piesSiedzi);
+                        }
+                        else
+                        {
+                            pictureBox7.Image = new Bitmap(piesStoi);
+                        }
                     }
 
                     Console.WriteLine(Dog);
@@ -208,8 +215,11 @@ namespace WindowsFormsApplication1
         {
             //("rtsp://192.168.42.1/live");
             //("rtsp://mpv.cdn3.bigCDN.com:554/bigCDN/definst/mp4:bigbuckbunnyiphone_400.mp4");
-            axVLCPlugin21.playlist.add(textBox2.Text);
-            axVLCPlugin21.playlist.play();
+            if (textBox2.Text.Length > 0)
+            {
+                axVLCPlugin21.playlist.add(textBox2.Text);
+                axVLCPlugin21.playlist.play();
+            }
 
 
             /*axVLCPlugin22.playlist.add("rtsp://mpv.cdn3.bigCDN.com:554/bigCDN/definst/mp4:bigbuckbunnyiphone_400.mp4");
@@ -221,18 +231,59 @@ namespace WindowsFormsApplication1
 
         }
 
+        private void InitializePB(PictureBox pb)
+        {
+            if (pb.Image == null)
+            {
+                Bitmap bmp = new Bitmap(pb.Width, pb.Height);
+                using (Graphics g = Graphics.FromImage(bmp))
+                {
+                    g.Clear(Color.White);
+                }
+                pb.Image = bmp;
+            }
+        }
+
+        void bitmaptopicture(Bitmap bmpbmp, PictureBox pict)
+        {
+            try
+            {
+                using (Graphics g = Graphics.FromImage(pict.Image))
+                {
+                    g.DrawImage((Bitmap)bmpbmp, 0, 0, pict.Width, pict.Height);
+                    //g.InterpolationMode = InterpolationMode.NearestNeighbor;
+                    //g.DrawImage(eventArgs.Frame, new Rectangle(Point.Empty, mBmp.Size));
+                }
+                pict.Invalidate();
+
+            }
+            catch (Exception e)
+            {
+                MessageBox.Show(e.ToString());
+            }
+        }
+
         private void FinalVideo_NewFrame(object sender, NewFrameEventArgs eventArgs)
         {
-            Bitmap video1 = (Bitmap)eventArgs.Frame.Clone();
-            Bitmap video2 = new Bitmap(video1);
-            pictureBox1.Image = video1;
+            //Bitmap video1 = (Bitmap)eventArgs.Frame.Clone();
+            //Bitmap video2 = new Bitmap(video1);
+            //MessageBox.Show("ADWF");
+
+            bitmaptopicture(eventArgs.Frame, pictureBox1);
+            bitmaptopicture(eventArgs.Frame, pictureBox2);
+
+
+
+
+
+            /*pictureBox1.Image = video1;
             pictureBox2.Image = video1;
             video2.RotateFlip(RotateFlipType.Rotate180FlipNone);
             video2 = Crop(video2);
-            video2.RotateFlip(RotateFlipType.Rotate180FlipNone);
+            //video2.RotateFlip(RotateFlipType.Rotate180FlipNone);
             pictureBox5.Image = video2;
             pictureBox6.Image = video2;
-            //wid = (String)video.PhysicalDimension.ToString();
+            //wid = (String)video.PhysicalDimension.ToString();*/
         }
 
         private Bitmap Crop(Bitmap myBitmap)
@@ -367,6 +418,16 @@ namespace WindowsFormsApplication1
         }
 
         private void label10_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void textBox2_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void textBox3_TextChanged(object sender, EventArgs e)
         {
 
         }
