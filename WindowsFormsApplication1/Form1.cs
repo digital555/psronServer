@@ -41,13 +41,16 @@ namespace WindowsFormsApplication1
         {
             InitializeComponent();
 
-            mControlSmartPhone.mIP = "10.3.2.19";
+            mControlSmartPhone.mIP = "10.3.2.46";
             mControlSmartPhone.mPort = 1234;
 
             mControlSmartPhone.Init();
 
             InitializePB(pictureBox1);
             InitializePB(pictureBox2);
+            InitializePB(pictureBox5);
+            InitializePB(pictureBox6);
+            pictureBox5.SizeMode = PictureBoxSizeMode.Zoom;
 
             webBrowser1.Navigate("http://localhost/jakistest/test.html");
             //webBrowser1.Navigate("http://cyberdog.herokuapp.com/users/sign_in");
@@ -186,16 +189,16 @@ namespace WindowsFormsApplication1
 
         void refresherVideoUdp()
         {
-
+            
             IPEndPoint RemoteIpEndPoint1 = new IPEndPoint(IPAddress.Any, 11000);
             while (true)
             {
                 //IPEndPoint object will allow us to read datagrams sent from any source.
 
-
+                
                 // Blocks until a message returns on this socket from a remote host.
                 Byte[] receiveBytes = udpClient1.Receive(ref RemoteIpEndPoint1);
-
+            
                 using (var ms = new MemoryStream(receiveBytes))
                 {
                     pictureBox3.Invoke((MethodInvoker)delegate
@@ -217,8 +220,8 @@ namespace WindowsFormsApplication1
             //("rtsp://mpv.cdn3.bigCDN.com:554/bigCDN/definst/mp4:bigbuckbunnyiphone_400.mp4");
             if (textBox2.Text.Length > 0)
             {
-                axVLCPlugin21.playlist.add(textBox2.Text);
-                axVLCPlugin21.playlist.play();
+                axVLCPlugin22.playlist.add(textBox2.Text);
+                axVLCPlugin22.playlist.play();
             }
 
 
@@ -259,7 +262,30 @@ namespace WindowsFormsApplication1
             }
             catch (Exception e)
             {
-                MessageBox.Show(e.ToString());
+                //MessageBox.Show(e.ToString());
+            }
+        }
+
+        void bitmaptopicturecropp(Bitmap bmpbmp, PictureBox pict)
+        {
+            try
+            {
+                using (Graphics g = Graphics.FromImage(pict.Image))
+                {
+                    var sourcerect = new Rectangle(1380, 750, 1920, 1080);
+                    var cloneRect = new Rectangle(0,0, 2300, 2200);
+
+                    
+                    g.DrawImage((Bitmap)(bmpbmp), cloneRect, sourcerect, GraphicsUnit.Pixel);
+                    //g.InterpolationMode = InterpolationMode.NearestNeighbor;
+                    //g.DrawImage(eventArgs.Frame, new Rectangle(Point.Empty, mBmp.Size));
+                }
+                pict.Invalidate();
+
+            }
+            catch (Exception e)
+            {
+                //MessageBox.Show(e.ToString());
             }
         }
 
@@ -271,6 +297,10 @@ namespace WindowsFormsApplication1
 
             bitmaptopicture(eventArgs.Frame, pictureBox1);
             bitmaptopicture(eventArgs.Frame, pictureBox2);
+
+
+            //bitmaptopicturecropp(eventArgs.Frame, pictureBox6);
+            bitmaptopicturecropp(eventArgs.Frame, pictureBox5);
 
 
 
