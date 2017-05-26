@@ -60,62 +60,11 @@ namespace WindowsFormsApplication1
             textBox3.Text = "192.168.1.120";
         }
 
-        private void tableLayoutPanel1_Paint(object sender, PaintEventArgs e)
-        {
-
-        }
-
-        private void flowLayoutPanel1_Paint(object sender, PaintEventArgs e)
-        {
-
-        }
-
-        private void showButton_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void checkBox1_CheckedChanged(object sender, EventArgs e)
-        {
-            /*if (checkBox1.Checked)
-                pictureBox1.SizeMode = PictureBoxSizeMode.StretchImage;
-            else
-                pictureBox1.SizeMode = PictureBoxSizeMode.Normal;*/
-        }
-
-
-        public void appendText(string str)
-        {            
-            /*{
-                string[] macierz_danych = str.Split(' ');
-
-                label4.Invoke((MethodInvoker)delegate
-                {
-                    label4.Text = macierz_danych[0];
-                });
-
-                label5.Invoke((MethodInvoker)delegate
-                {
-                    label5.Text = macierz_danych[1];
-                });
-
-                label6.Invoke((MethodInvoker)delegate
-                {
-                    label6.Text = wid;
-                });
-            }*/
-
-
-            /*if (richTextBox1.InvokeRequired)
-            {
-                richTextBox1.Invoke(new Action<string>(appendText), str);
-            }
-            else
-            {
-                richTextBox1.ResetText();
-                richTextBox1.AppendText(macierz_danych[0]);
-            }   */
-        }
+        /// <summary>
+        /// Funkcja uruchamia dwa oddzielne wątki dla odswieżania danych telemetrycznych z psa i z drona. Wywoływana jest przez uzycie buttona "Start dane".
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
 
         private void startConnection_Click(object sender, EventArgs e)
         {
@@ -124,6 +73,10 @@ namespace WindowsFormsApplication1
             Thread thr2 = new Thread(dogDataRefresher);
             thr2.Start();
         }
+
+        /// <summary>
+        /// Funkcja odpowiedzialna jest za pobieranie z klasy "ControlSmartPhone" zmiennej o nazwie "publiczny", w której zawarte sa dane telemetryczne
+        /// </summary>
 
         void droneDataRefresher()
         {
@@ -136,6 +89,10 @@ namespace WindowsFormsApplication1
                     Thread.Sleep(500);                
             }
         }
+
+        /// <summary>
+        /// Funkcja nasłuchuje dane telemetryczne z IMU na psie przychodzące po UDP na port 11001. Wywołując funkcję SqlConn, aktualizuje wartości w bazie danych sql. Na podstawie odczytów z IMU funkcja określa położenie grzbietu psa oraz wizualizuje czy pies stoi czy siedzi.
+        /// </summary>
 
         void dogDataRefresher()
         {
@@ -179,23 +136,21 @@ namespace WindowsFormsApplication1
                         }
                     }
 
-                    Console.WriteLine(Dog);
+                    //Console.WriteLine(Dog);
                 }
-
-
-
             }
         }
 
+        /// <summary>
+        /// Funkcja odpowiada za odbiór danych zawierających obraz pochodzący z jednej z kamrer z psa. Wyświetla go na ekranie podzielonym oraz w oknie dedykowanym dla tej kamery.
+        /// </summary>
+
         void refresherVideoUdp()
         {
-            
+            //IPEndPoint object will allow us to read datagrams sent from any source.
             IPEndPoint RemoteIpEndPoint1 = new IPEndPoint(IPAddress.Any, 11000);
             while (true)
-            {
-                //IPEndPoint object will allow us to read datagrams sent from any source.
-
-                
+            {                
                 // Blocks until a message returns on this socket from a remote host.
                 Byte[] receiveBytes = udpClient1.Receive(ref RemoteIpEndPoint1);
             
@@ -213,6 +168,11 @@ namespace WindowsFormsApplication1
             }
         }
 
+        /// <summary>
+        /// Funkcja w skutek uzycia buttona "Start video" uruchamia wyświetlanie video z urządzeń umieszczonych na psie. 
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
 
         private void upd_Click(object sender, EventArgs e)
         {
@@ -223,8 +183,6 @@ namespace WindowsFormsApplication1
                 axVLCPlugin22.playlist.add(textBox2.Text);
                 axVLCPlugin22.playlist.play();
             }
-
-
             /*axVLCPlugin22.playlist.add("rtsp://mpv.cdn3.bigCDN.com:554/bigCDN/definst/mp4:bigbuckbunnyiphone_400.mp4");
             axVLCPlugin22.playlist.play();
             axVLCPlugin22.volume = 0;*/
@@ -234,6 +192,11 @@ namespace WindowsFormsApplication1
 
         }
 
+        /// <summary>
+        /// Funkcja inicjalizująca pola "PictureBox" odpowiadające za wyświetlanie obrazu.
+        /// </summary>
+        /// <param name="pb">Wybrany PictureBox</param>
+
         private void InitializePB(PictureBox pb)
         {
             if (pb.Image == null)
@@ -241,11 +204,17 @@ namespace WindowsFormsApplication1
                 Bitmap bmp = new Bitmap(pb.Width, pb.Height);
                 using (Graphics g = Graphics.FromImage(bmp))
                 {
-                    g.Clear(Color.White);
+                    g.Clear(Color.Black);
                 }
                 pb.Image = bmp;
             }
         }
+
+        /// <summary>
+        /// Funkcja wyświetla wybraną bitmapę na wskazanym PictureBoxie
+        /// </summary>
+        /// <param name="bmpbmp">Wybrana bitmapa</param>
+        /// <param name="pict">Wskazany picturebox</param>
 
         void bitmaptopicture(Bitmap bmpbmp, PictureBox pict)
         {
@@ -265,6 +234,12 @@ namespace WindowsFormsApplication1
                 //MessageBox.Show(e.ToString());
             }
         }
+
+        /// <summary>
+        /// Funcja tworzy crop fragmentu obrazu pobieranego z pilota drona i wyświetla go na picturebox odpowiedzialnym za kamerę termowizyjną drona.
+        /// </summary>
+        /// <param name="bmpbmp">Obraz pierwotny</param>
+        /// <param name="pict">Wskazany picturebox</param>
 
         void bitmaptopicturecropp(Bitmap bmpbmp, PictureBox pict)
         {
@@ -289,6 +264,12 @@ namespace WindowsFormsApplication1
             }
         }
 
+        /// <summary>
+        /// Funkcja pochodząca z biblioteki 
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="eventArgs"></param>
+        
         private void FinalVideo_NewFrame(object sender, NewFrameEventArgs eventArgs)
         {
             //Bitmap video1 = (Bitmap)eventArgs.Frame.Clone();
@@ -298,13 +279,8 @@ namespace WindowsFormsApplication1
             bitmaptopicture(eventArgs.Frame, pictureBox1);
             bitmaptopicture(eventArgs.Frame, pictureBox2);
 
-
             //bitmaptopicturecropp(eventArgs.Frame, pictureBox6);
             bitmaptopicturecropp(eventArgs.Frame, pictureBox5);
-
-
-
-
 
             /*pictureBox1.Image = video1;
             pictureBox2.Image = video1;
@@ -316,6 +292,8 @@ namespace WindowsFormsApplication1
             //wid = (String)video.PhysicalDimension.ToString();*/
         }
 
+/*
+
         private Bitmap Crop(Bitmap myBitmap)
         {
             // Clone a portion of the Bitmap object.
@@ -326,7 +304,13 @@ namespace WindowsFormsApplication1
             //Console.WriteLine(myBitmap.Width + " " + myBitmap.Height);
             // Draw the cloned portion of the Bitmap object.
             return cloneBitmap;
-        }
+        }*/
+
+        /// <summary>
+        /// Funkcja korzystająca z bibliotegi AForge do uruchomienia wyświetlania video z urządzeń USB.
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
 
         private void button1_Click(object sender, EventArgs e)
         {
@@ -336,6 +320,12 @@ namespace WindowsFormsApplication1
             FinalVideo.NewFrame += FinalVideo_NewFrame;
             FinalVideo.Start();
         }
+
+        /// <summary>
+        /// Funkcja wyszukująca urządzenia USB, z których można pobrać video.
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
 
         private void Form1_Load(object sender, EventArgs e)
         {
@@ -350,6 +340,12 @@ namespace WindowsFormsApplication1
             FinalVideo = new VideoCaptureDevice();
         }
 
+        /// <summary>
+        /// Funkcja odpowiedzialna za przesyłanie położenia geograficznego do bazy mysql.
+        /// </summary>
+        /// <param name="Lat">Długość geograficzna</param>
+        /// <param name="Lng">Szerokość geograficzna</param>
+
         private void SqlConn(string Lat, string Lng)
         {
             MySqlConnection connectionLocal = new MySqlConnection(sqlConnectionDataLocal);
@@ -357,7 +353,6 @@ namespace WindowsFormsApplication1
             MySqlCommand cmdL;
 
             connectionLocal.Open();
-
 
             try
             {
@@ -379,6 +374,12 @@ namespace WindowsFormsApplication1
 
         }
 
+        /// <summary>
+        /// Funkcja opdowiedzialna za zapalanie i gaszenie latarki lub innego urządzenia znajdującego się na kamizelce psa.
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
+
         private void checkBox1_CheckedChanged_1(object sender, EventArgs e)
         {
             byte[] latarka = new byte[1];
@@ -389,6 +390,61 @@ namespace WindowsFormsApplication1
             udpClient3.Send(latarka, latarka.Length);
         }
 
+        private void tableLayoutPanel1_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
+
+        private void flowLayoutPanel1_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
+
+        private void showButton_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void checkBox1_CheckedChanged(object sender, EventArgs e)
+        {
+            /*if (checkBox1.Checked)
+                pictureBox1.SizeMode = PictureBoxSizeMode.StretchImage;
+            else
+                pictureBox1.SizeMode = PictureBoxSizeMode.Normal;*/
+        }
+
+        public void appendText(string str)
+        {
+            /*{
+                string[] macierz_danych = str.Split(' ');
+
+                label4.Invoke((MethodInvoker)delegate
+                {
+                    label4.Text = macierz_danych[0];
+                });
+
+                label5.Invoke((MethodInvoker)delegate
+                {
+                    label5.Text = macierz_danych[1];
+                });
+
+                label6.Invoke((MethodInvoker)delegate
+                {
+                    label6.Text = wid;
+                });
+            }*/
+
+
+            /*if (richTextBox1.InvokeRequired)
+            {
+                richTextBox1.Invoke(new Action<string>(appendText), str);
+            }
+            else
+            {
+                richTextBox1.ResetText();
+                richTextBox1.AppendText(macierz_danych[0]);
+            }   */
+        }
 
         private void pictureBox1_Click_1(object sender, EventArgs e)
         {

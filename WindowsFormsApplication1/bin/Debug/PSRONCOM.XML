@@ -4,6 +4,90 @@
         <name>PSRONCOM</name>
     </assembly>
     <members>
+        <member name="M:WindowsFormsApplication1.Form1.startConnection_Click(System.Object,System.EventArgs)">
+            <summary>
+            Funkcja uruchamia dwa oddzielne wątki dla odswieżania danych telemetrycznych z psa i z drona. Wywoływana jest przez uzycie buttona "Start dane".
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="M:WindowsFormsApplication1.Form1.droneDataRefresher">
+            <summary>
+            Funkcja odpowiedzialna jest za pobieranie z klasy "ControlSmartPhone" zmiennej o nazwie "publiczny", w której zawarte sa dane telemetryczne
+            </summary>
+        </member>
+        <member name="M:WindowsFormsApplication1.Form1.dogDataRefresher">
+            <summary>
+            Funkcja nasłuchuje dane telemetryczne z IMU na psie przychodzące po UDP na port 11001. Wywołując funkcję SqlConn, aktualizuje wartości w bazie danych sql. Na podstawie odczytów z IMU funkcja określa położenie grzbietu psa oraz wizualizuje czy pies stoi czy siedzi.
+            </summary>
+        </member>
+        <member name="M:WindowsFormsApplication1.Form1.refresherVideoUdp">
+            <summary>
+            Funkcja odpowiada za odbiór danych zawierających obraz pochodzący z jednej z kamrer z psa. Wyświetla go na ekranie podzielonym oraz w oknie dedykowanym dla tej kamery.
+            </summary>
+        </member>
+        <member name="M:WindowsFormsApplication1.Form1.upd_Click(System.Object,System.EventArgs)">
+            <summary>
+            Funkcja w skutek uzycia buttona "Start video" uruchamia wyświetlanie video z urządzeń umieszczonych na psie. 
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="M:WindowsFormsApplication1.Form1.InitializePB(System.Windows.Forms.PictureBox)">
+            <summary>
+            Funkcja inicjalizująca pola "PictureBox" odpowiadające za wyświetlanie obrazu.
+            </summary>
+            <param name="pb">Wybrany PictureBox</param>
+        </member>
+        <member name="M:WindowsFormsApplication1.Form1.bitmaptopicture(System.Drawing.Bitmap,System.Windows.Forms.PictureBox)">
+            <summary>
+            Funkcja wyświetla wybraną bitmapę na wskazanym PictureBoxie
+            </summary>
+            <param name="bmpbmp">Wybrana bitmapa</param>
+            <param name="pict">Wskazany picturebox</param>
+        </member>
+        <member name="M:WindowsFormsApplication1.Form1.bitmaptopicturecropp(System.Drawing.Bitmap,System.Windows.Forms.PictureBox)">
+            <summary>
+            Funcja tworzy crop fragmentu obrazu pobieranego z pilota drona i wyświetla go na picturebox odpowiedzialnym za kamerę termowizyjną drona.
+            </summary>
+            <param name="bmpbmp">Obraz pierwotny</param>
+            <param name="pict">Wskazany picturebox</param>
+        </member>
+        <member name="M:WindowsFormsApplication1.Form1.FinalVideo_NewFrame(System.Object,AForge.Video.NewFrameEventArgs)">
+            <summary>
+            Funkcja pochodząca z biblioteki 
+            </summary>
+            <param name="sender"></param>
+            <param name="eventArgs"></param>
+        </member>
+        <member name="M:WindowsFormsApplication1.Form1.button1_Click(System.Object,System.EventArgs)">
+            <summary>
+            Funkcja korzystająca z bibliotegi AForge do uruchomienia wyświetlania video z urządzeń USB.
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="M:WindowsFormsApplication1.Form1.Form1_Load(System.Object,System.EventArgs)">
+            <summary>
+            Funkcja wyszukująca urządzenia USB, z których można pobrać video.
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="M:WindowsFormsApplication1.Form1.SqlConn(System.String,System.String)">
+            <summary>
+            Funkcja odpowiedzialna za przesyłanie położenia geograficznego do bazy mysql.
+            </summary>
+            <param name="Lat">Długość geograficzna</param>
+            <param name="Lng">Szerokość geograficzna</param>
+        </member>
+        <member name="M:WindowsFormsApplication1.Form1.checkBox1_CheckedChanged_1(System.Object,System.EventArgs)">
+            <summary>
+            Funkcja opdowiedzialna za zapalanie i gaszenie latarki lub innego urządzenia znajdującego się na kamizelce psa.
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
         <member name="F:WindowsFormsApplication1.Form1.components">
             <summary>
             Required designer variable.

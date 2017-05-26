@@ -1,0 +1,361 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<HelpTOC>
+
+  <HelpTOCNode Id="a1126b3a-57da-4afb-a38f-d068e3d4789b" Title="SandcastleBuilder.WPF" Url="html/cf740ada-2121-d6d0-e836-11534541acbd.htm">
+    <HelpTOCNode Id="2a9be9d0-01a6-4ff0-b1c5-deda67fba88b" Title="ControlExtensions Class" Url="html/0d3ccd17-b90e-f374-e65b-683dd294820e.htm">
+      <HelpTOCNode Id="69fc2ea5-062a-45ed-b6a6-ed6ba26bacda" Title="ControlExtensions Methods" Url="html/3c2da75e-2ab5-6db3-d703-76bb0e57eff5.htm">
+        <HelpTOCNode Title="AutoScrollIfNeeded Method " Url="html/6ff3a7be-2efb-eb32-18be-7806c217b429.htm" />
+        <HelpTOCNode Title="AutoSizeTableColumns Method " Url="html/fa2aefc0-4971-d508-49c1-9968d082f513.htm" />
+        <HelpTOCNode Title="CommitChanges Method " Url="html/b367b466-4855-1913-acb8-27d2a042741f.htm" />
+        <HelpTOCNode Title="Find(T) Method " Url="html/889eedb2-8ed8-8542-376e-40122409b5d7.htm" />
+        <HelpTOCNode Title="FindByName Method " Url="html/d3218ef8-30df-65e5-4ff9-11861bbb9136.htm" />
+        <HelpTOCNode Title="Flatten Method " Url="html/6fd4ca56-0fdc-94d9-5793-4ee3b34aaba6.htm" />
+        <HelpTOCNode Title="ParentElementOfType(T) Method " Url="html/ed963e74-25d1-b06c-d9fc-a43ad4ea2dc9.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+  </HelpTOCNode>
+  <HelpTOCNode Id="f5e44e27-1cc6-49e0-8a93-eb8e9ae8ad6c" Title="SandcastleBuilder.WPF.Behaviors" Url="html/8ac791b1-2541-3451-4215-6a98f141b715.htm">
+    <HelpTOCNode Id="c51b2591-79e7-4ea9-abab-19329c0acbd3" Title="SupportAnimatedGIFBehavior Class" Url="html/09b89744-2d45-b9c6-fe29-da5152fb13a6.htm">
+      <HelpTOCNode Id="be5f087d-663c-4cfd-b8fd-6327c89c184f" Title="SupportAnimatedGIFBehavior Methods" Url="html/939cdd28-fc7a-d8bb-c514-c887d5434584.htm">
+        <HelpTOCNode Title="GetSupportAnimatedGif Method " Url="html/653424c4-3aca-9032-76a6-07d630fae8a2.htm" />
+        <HelpTOCNode Title="SetSupportAnimatedGif Method " Url="html/b05d15b6-0e7b-1383-2937-8dac5810cb9c.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="7fb7b624-6116-44a2-a27c-16966d9165d2" Title="SupportAnimatedGIFBehavior Fields" Url="html/aee641fa-59ee-7d1b-7ef9-13af19997085.htm">
+        <HelpTOCNode Title="SupportAnimatedGifProperty Field" Url="html/b6feb45f-9165-88b0-fd32-84f125472ed2.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="1391b07f-b24c-4625-b105-b46124355882" Title="SupportAnimatedGIFBehavior Attached Properties" Url="html/b46f7a61-dba5-cc18-7542-05a71256d05e.htm">
+        <HelpTOCNode Title="SupportAnimatedGif Attached Property" Url="html/9c582917-079b-85c6-58b8-d1e2c09cfda9.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="f62b8141-0976-4938-ad28-b75a86dec803" Title="TreeViewItemBehavior Class" Url="html/0c6fce32-df3b-de16-ff6f-19e43ed8bef8.htm">
+      <HelpTOCNode Id="8fd93d51-7ac9-48eb-a842-0d15879b84f4" Title="TreeViewItemBehavior Methods" Url="html/5aeb8399-4970-1ab6-b346-9504c939162b.htm">
+        <HelpTOCNode Title="GetIsBroughtIntoViewWhenSelected Method " Url="html/a81c3dc7-f89d-3c62-7fa4-2177bf83dcc3.htm" />
+        <HelpTOCNode Title="SetIsBroughtIntoViewWhenSelected Method " Url="html/75478b1c-c184-a401-6150-8e069fa6d63d.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="e8825b0b-841e-4edb-9a5e-6a150cdb3839" Title="TreeViewItemBehavior Fields" Url="html/77f59045-6f18-99db-121e-7c8188e90926.htm">
+        <HelpTOCNode Title="IsBroughtIntoViewWhenSelectedProperty Field" Url="html/aba7a271-2de6-2d2e-97e3-87925421d94f.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="7fed2ed9-3a2b-4870-aee3-fd073529afd7" Title="TreeViewItemBehavior Attached Properties" Url="html/5b1bec61-23f5-9565-0556-188107adb29c.htm">
+        <HelpTOCNode Title="IsBroughtIntoViewWhenSelected Attached Property" Url="html/6ab1ee44-d0ef-4062-0acd-14c4202e88f1.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+  </HelpTOCNode>
+  <HelpTOCNode Id="5da0a362-573a-4b8a-b139-1de923a31a37" Title="SandcastleBuilder.WPF.Commands" Url="html/c02822d3-bddc-aca5-fccc-78334053e01a.htm">
+    <HelpTOCNode Id="097e419a-da3a-4e10-9371-5010b7ac8157" Title="EditorCommands Class" Url="html/8959de4e-b25b-3fbd-0ac4-e2ea0fb1a1fc.htm">
+      <HelpTOCNode Id="28d20bba-edf6-4914-86cc-27f9d7944565" Title="EditorCommands Properties" Url="html/ed3db2f1-e17e-5c42-2aa1-32453091ea68.htm">
+        <HelpTOCNode Title="AddItem Property " Url="html/550b787d-26ad-a20d-ef25-f81195dab578.htm" />
+        <HelpTOCNode Title="CollapseAll Property " Url="html/f5284bd5-a177-9349-e2cc-36e8802cdba9.htm" />
+        <HelpTOCNode Title="CollapseCurrent Property " Url="html/f6eda0b3-2f96-9571-c2c9-cfa965d79ad0.htm" />
+        <HelpTOCNode Title="Edit Property " Url="html/3f7c0237-3c1c-2340-3e57-11c57466e4df.htm" />
+        <HelpTOCNode Title="ExpandAll Property " Url="html/b8087e6c-68cf-bea5-cf27-a9ce155337ec.htm" />
+        <HelpTOCNode Title="ExpandCurrent Property " Url="html/c2dce35c-be4e-55b2-8f3d-88eea1d90245.htm" />
+        <HelpTOCNode Title="MoveDown Property " Url="html/3eac89c9-b89a-5a9a-4a06-b6969c06c1d3.htm" />
+        <HelpTOCNode Title="MoveUp Property " Url="html/ff6eb217-ceff-35d0-3493-35a6cfe0d7ff.htm" />
+        <HelpTOCNode Title="PasteAsChild Property " Url="html/c45f9450-41dc-f87f-81ef-def729fc6f5a.htm" />
+        <HelpTOCNode Title="Sort Property " Url="html/365568c4-c032-5eb6-1ada-0fcb8153aa75.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="3a75fb8f-99d7-4cb7-8a18-2bba930ab7cf" Title="ProjectCommands Class" Url="html/91848d27-5e03-6e91-4f5c-3773365618f0.htm">
+      <HelpTOCNode Id="01e832a5-4f0e-430d-8349-05121a6d5252" Title="ProjectCommands Properties" Url="html/c46aca1a-fbef-987f-a463-1136b94dbeea.htm">
+        <HelpTOCNode Title="AddAllFromFolder Property " Url="html/bb3e11c2-9ad7-560a-b789-40680782408c.htm" />
+        <HelpTOCNode Title="AddExistingFile Property " Url="html/ab6b77de-5a30-6db1-1db1-969f4cbc7edc.htm" />
+        <HelpTOCNode Title="AddFromTemplate Property " Url="html/ce571b9a-54c0-0286-28d8-9cc09f13e7bd.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+  </HelpTOCNode>
+  <HelpTOCNode Id="a83b0cb1-4736-4dcd-907d-207e907617b6" Title="SandcastleBuilder.WPF.Controls" Url="html/dcd354f8-a02d-0721-a84c-34f78ea0239d.htm">
+    <HelpTOCNode Id="6c46a687-37fe-498d-87d4-f0ed69443898" Title="DropDownButton Class" Url="html/20034471-923c-70f5-d8e8-4454f91c76dc.htm">
+      <HelpTOCNode Title="DropDownButton Constructor " Url="html/b860a840-4323-2820-2c5b-b691d7085edd.htm" />
+      <HelpTOCNode Id="c1f62862-641c-4d64-87fe-bda9c44413a8" Title="DropDownButton Properties" Url="html/7e5ada7e-5e0b-55de-d5f4-e9a0550fe5e9.htm">
+        <HelpTOCNode Title="DropDownButtonCommand Property " Url="html/24f39f17-0517-acba-ff21-f0cb7d23ed0d.htm" />
+        <HelpTOCNode Title="DropDownContextMenu Property " Url="html/62587b0f-adcf-012a-29c5-6fff86febb31.htm" />
+        <HelpTOCNode Title="Image Property " Url="html/1cdf4ca4-74d5-e382-173d-d41e965386ad.htm" />
+        <HelpTOCNode Title="Target Property " Url="html/48ebb2b8-28e4-69ab-43a0-369a35cc5e14.htm" />
+        <HelpTOCNode Title="Text Property " Url="html/6a8ed892-4794-61a3-b2e0-27244168a7f1.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="7d42a6fe-5f90-4475-8b4a-2d4aa934c21d" Title="DropDownButton Methods" Url="html/c003221e-2643-0416-72c9-47599c8f3447.htm">
+        <HelpTOCNode Title="OnClick Method " Url="html/79ac36cf-7b11-a262-25c0-3e4e3ca728f0.htm" />
+        <HelpTOCNode Title="OnPropertyChanged Method " Url="html/df82db52-8149-0443-0692-3f0c19d98edd.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Title="DropDownButton Events" Url="html/1143cc4b-c84a-268d-72ee-45f2d7cb10e3.htm" />
+      <HelpTOCNode Id="069a32bb-9d83-422b-8820-6dcbc290525b" Title="DropDownButton Fields" Url="html/d9ab8b7e-6e1b-9cb7-4a00-f5f0aadc9d11.htm">
+        <HelpTOCNode Title="DropDownButtonCommandProperty Field" Url="html/046d848f-a74c-68f6-6b65-a3fb387f22de.htm" />
+        <HelpTOCNode Title="DropDownContextMenuProperty Field" Url="html/ad778bca-a6fb-0e56-999b-f5400034c0c1.htm" />
+        <HelpTOCNode Title="ImageProperty Field" Url="html/6c16eefb-c448-e08e-dfc7-e766610d4708.htm" />
+        <HelpTOCNode Title="TargetProperty Field" Url="html/a5ea11dd-ed2c-feff-d42f-ddca9ccee5e7.htm" />
+        <HelpTOCNode Title="TextProperty Field" Url="html/920e175e-41f9-9c27-49f3-2b7417920ba7.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="12c13778-5658-4fd3-a753-1b7a8a027133" Title="SplitButton Class" Url="html/04d20c50-5b8d-0d27-a680-b1f5035e6ae7.htm">
+      <HelpTOCNode Title="SplitButton Constructor " Url="html/a19cddfd-0126-e38d-65c5-92b20c9cea71.htm" />
+      <HelpTOCNode Id="4de3aec4-7ffa-42d4-8918-741ecc6d4218" Title="SplitButton Properties" Url="html/5d2ec0db-82e4-2d52-8c00-e4cbb71a406c.htm">
+        <HelpTOCNode Title="DropDownButtonCommand Property " Url="html/ac8205ea-307b-59fa-bb91-65d00b35ef4e.htm" />
+        <HelpTOCNode Title="DropDownContextMenu Property " Url="html/b2c38648-c194-57ca-74da-955b883fe501.htm" />
+        <HelpTOCNode Title="Image Property " Url="html/3cfdabc8-95a5-59b8-e101-05ec1d2bb53c.htm" />
+        <HelpTOCNode Title="MainButtonCommand Property " Url="html/32d51e7a-4fb0-5e1f-7117-3ef1ed4a2925.htm" />
+        <HelpTOCNode Title="MainButtonCommandParameter Property " Url="html/a997b784-bc86-9af3-8df5-ea322d58eb66.htm" />
+        <HelpTOCNode Title="MainButtonCommandTarget Property " Url="html/2069d915-f8d4-e9a0-c23f-896cd72faf65.htm" />
+        <HelpTOCNode Title="Target Property " Url="html/0520b81a-1985-d4a4-6d1f-62bf1d243160.htm" />
+        <HelpTOCNode Title="Text Property " Url="html/0ae4c433-58b0-1db9-cf54-3da8bb6a3463.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="10092ac4-3431-441c-9fe7-6692ef59bcff" Title="SplitButton Methods" Url="html/20f49377-8c3a-b7ee-0fb4-8954245a2676.htm">
+        <HelpTOCNode Title="OnApplyTemplate Method " Url="html/60ebcbb5-5490-47bb-0cd6-add13cc41217.htm" />
+        <HelpTOCNode Title="OnClick Method " Url="html/3cc36b2b-f8e6-e4f1-078f-4dc70c1742c6.htm" />
+        <HelpTOCNode Title="OnPropertyChanged Method " Url="html/b3130ed2-4108-6fd0-b4e1-6ad522d0bcae.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Title="SplitButton Events" Url="html/c2846d26-5226-cf82-a9f1-e213c3d3cadc.htm" />
+      <HelpTOCNode Id="7c4904d6-256b-4a26-97b8-d1bca44edc04" Title="SplitButton Fields" Url="html/e9404be3-774f-fcb2-d9ea-e1a639c38cb7.htm">
+        <HelpTOCNode Title="DropDownButtonCommandProperty Field" Url="html/9b9fae72-9509-70db-21b7-6a2345eae914.htm" />
+        <HelpTOCNode Title="DropDownContextMenuProperty Field" Url="html/e2750386-ed21-a502-8371-0fa8897e19f2.htm" />
+        <HelpTOCNode Title="ImageProperty Field" Url="html/72e2603b-90b0-67dc-7a00-83a360ae492f.htm" />
+        <HelpTOCNode Title="MainButtonCommandParameterProperty Field" Url="html/62d22d3a-1a32-38b6-33d0-0e5a021b7237.htm" />
+        <HelpTOCNode Title="MainButtonCommandProperty Field" Url="html/0cfb7c9c-fe7a-fd21-10a4-3d34900aec27.htm" />
+        <HelpTOCNode Title="MainButtonCommandTargetProperty Field" Url="html/747885a8-5764-f9fe-f122-20b7d97b02b0.htm" />
+        <HelpTOCNode Title="TargetProperty Field" Url="html/89c1ded1-700f-f856-8928-b1b65a7c8c6d.htm" />
+        <HelpTOCNode Title="TextProperty Field" Url="html/465941a3-e791-697b-2148-c0a34dd540af.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+  </HelpTOCNode>
+  <HelpTOCNode Id="61a14df9-d64b-4698-96ea-1e8d73f72bbb" Title="SandcastleBuilder.WPF.Maml" Url="html/8fc9dc76-9def-c113-8779-ebf2202d82bd.htm">
+    <HelpTOCNode Id="326fc937-c5f0-48a5-abb8-afc25bdf30b1" Title="MamlToFlowDocumentConverter Class" Url="html/7c8e055a-8b45-b2bd-2d6f-fb41b46ee081.htm">
+      <HelpTOCNode Title="MamlToFlowDocumentConverter Constructor " Url="html/c54b3aec-9570-2edc-0ccc-60236cc73d20.htm" />
+      <HelpTOCNode Id="eda08923-a156-4d12-862f-ab797ae2c40e" Title="MamlToFlowDocumentConverter Properties" Url="html/78ec98f0-0953-88f0-51f5-b1d01eb1c735.htm">
+        <HelpTOCNode Title="AlertIcons Property " Url="html/f2aae77f-c447-23b4-a691-f8f854598e8d.htm" />
+        <HelpTOCNode Title="AlertTitles Property " Url="html/0ceac954-4f58-a1da-bc0e-b1be915d393a.htm" />
+        <HelpTOCNode Title="CodeColorizer Property " Url="html/e6b00c90-97d7-c99e-1cc3-03e2051ff80e.htm" />
+        <HelpTOCNode Title="ColorizerFlowDocumentTemplate Property " Url="html/92862633-126c-6cfe-0ea9-a4f9676d4eb9.htm" />
+        <HelpTOCNode Title="ImportedCodeBasePath Property " Url="html/cfb9fa99-0b1a-d208-4a78-b8c4480e391d.htm" />
+        <HelpTOCNode Title="MediaFiles Property " Url="html/23fe4bae-9aed-07ea-edf9-86a7ad36b956.htm" />
+        <HelpTOCNode Title="NamedSectionTitles Property " Url="html/9686a516-1085-bd24-409b-ae962d4750cf.htm" />
+        <HelpTOCNode Title="Tokens Property " Url="html/122f4c40-6322-e7f6-73da-d734eda52d9c.htm" />
+        <HelpTOCNode Title="TopicTitles Property " Url="html/5c423c57-3b59-6b21-7ca0-b5322118b690.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="b59ae2c6-8156-4c1e-b4ae-6d60ae49b332" Title="MamlToFlowDocumentConverter Methods" Url="html/8f9d0c4a-87c2-d720-c5f1-47344a079ad9.htm">
+        <HelpTOCNode Title="ToElementName Method " Url="html/d3248ce1-5e97-0a94-cedd-9c6da47c2e2b.htm" />
+        <HelpTOCNode Title="ToFlowDocument Method " Url="html/37690c57-e1b0-f84e-f209-df40430fb532.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="2465895f-6904-4f2f-ae1d-bc6e85e1f416" Title="NamedStyle Class" Url="html/03c8a213-541f-8c63-8463-706f12189c92.htm">
+      <HelpTOCNode Id="40b7ce2c-223a-4e5c-a51c-ca5ed9c710df" Title="NamedStyle Fields" Url="html/160016a5-fbec-a57f-8abe-261be79397ef.htm">
+        <HelpTOCNode Title="AlertBody Field" Url="html/a8e842fb-fb5c-c2bc-8fa3-bc4d03f122eb.htm" />
+        <HelpTOCNode Title="AlertTitle Field" Url="html/12fc3abb-079d-311c-db87-982536e36cfd.htm" />
+        <HelpTOCNode Title="CodeBlock Field" Url="html/9a35171f-42b9-f5c6-6cf7-0ab0e7aa32f2.htm" />
+        <HelpTOCNode Title="CodeInline Field" Url="html/b8d8eac8-9e26-36f6-f877-6de6d99c7af0.htm" />
+        <HelpTOCNode Title="DefinedTerm Field" Url="html/a2d82924-7ed6-3721-4e1b-8fd480f9b741.htm" />
+        <HelpTOCNode Title="Definition Field" Url="html/4fb950e2-d7b7-2391-d43e-df8371ba4de3.htm" />
+        <HelpTOCNode Title="GlossaryDefinition Field" Url="html/94c466e2-d2e8-33b5-0d5c-468845368c7a.htm" />
+        <HelpTOCNode Title="GlossaryDivisionTitle Field" Url="html/389179d1-57a6-5a6a-0dd3-7bcbb4ac8c3b.htm" />
+        <HelpTOCNode Title="GlossaryLetterBar Field" Url="html/69b7b72c-b24c-ac93-849c-35fe3f783aaf.htm" />
+        <HelpTOCNode Title="GlossaryLetterTitle Field" Url="html/4a8b460e-80c9-6161-db1d-f1eb303076ea.htm" />
+        <HelpTOCNode Title="Literal Field" Url="html/797ef6ac-b1e3-4569-c6c2-7066108559b7.htm" />
+        <HelpTOCNode Title="Math Field" Url="html/afb92584-cd66-d7d1-ed3a-2ccb2acb0915.htm" />
+        <HelpTOCNode Title="NoMargin Field" Url="html/fdb87fbc-d81c-9ac8-d540-12c2ae0f6f7c.htm" />
+        <HelpTOCNode Title="NoTopMargin Field" Url="html/8a9bd1cb-e455-aa26-ab05-b3b7deb75686.htm" />
+        <HelpTOCNode Title="Quote Field" Url="html/0f608769-963c-e4cc-27c0-3e29829a691c.htm" />
+        <HelpTOCNode Title="RelatedTopicTitle Field" Url="html/3d99c9aa-327b-507b-7ea8-666c8d266888.htm" />
+        <HelpTOCNode Title="TableHeaderRow Field" Url="html/81b92c71-694a-0539-ca13-d5ab4968e228.htm" />
+        <HelpTOCNode Title="TableTitle Field" Url="html/89ea82e0-dc40-3a64-935d-b61f5650e988.htm" />
+        <HelpTOCNode Title="Title Field" Url="html/1b4699eb-4e2f-8a3e-99ff-99bae56ae940.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+  </HelpTOCNode>
+  <HelpTOCNode Id="91f16886-c1fd-4113-a88e-17b848e54337" Title="SandcastleBuilder.WPF.Theme" Url="html/079aba53-7f8b-25d5-ddf2-accd8f3fc22a.htm">
+    <HelpTOCNode Id="5c24cfcf-ca62-46aa-b558-b26816864a5f" Title="ThemeColors Class" Url="html/4b3fd698-fdd0-5b16-9ae9-a88a76755d99.htm">
+      <HelpTOCNode Id="7b1097ac-9081-4d8f-9487-2e08573cb84c" Title="ThemeColors Properties" Url="html/8cab6f0b-7d2b-d0d0-df80-a53aedad5aa8.htm">
+        <HelpTOCNode Title="ButtonBackgroundColor Property " Url="html/fe5acac3-2d72-32d3-5907-744b8ad3585c.htm" />
+        <HelpTOCNode Title="ButtonBorderColor Property " Url="html/03fae4d6-4b3f-4196-85b8-44a91cb0734f.htm" />
+        <HelpTOCNode Title="ButtonDisabledBackgroundColor Property " Url="html/34e8f470-3193-d6b3-0ca8-d15ab9779f8d.htm" />
+        <HelpTOCNode Title="ButtonDisabledBorderColor Property " Url="html/0a82680d-44b0-a407-b26e-a25cfa42c235.htm" />
+        <HelpTOCNode Title="ButtonDisabledForegroundColor Property " Url="html/8f22ae98-611f-e842-4d9d-b9b841de74fc.htm" />
+        <HelpTOCNode Title="ButtonForegroundColor Property " Url="html/e293a579-8101-8603-5ba0-66813faa4839.htm" />
+        <HelpTOCNode Title="ButtonHoverBackgroundColor Property " Url="html/449e4adb-a186-83dd-b149-767e00dc2379.htm" />
+        <HelpTOCNode Title="ButtonHoverBorderColor Property " Url="html/640a634f-7dfb-0890-cb52-5b2ed01c5a71.htm" />
+        <HelpTOCNode Title="ButtonHoverForegroundColor Property " Url="html/a4a13adf-0f15-8cc6-3dc2-1207970c81c4.htm" />
+        <HelpTOCNode Title="ButtonPressedBackgroundColor Property " Url="html/4ace9616-ff4a-345e-2974-989dcac7d963.htm" />
+        <HelpTOCNode Title="ButtonPressedBorderColor Property " Url="html/1e43054f-799d-4884-cba1-bbd36c00b8ac.htm" />
+        <HelpTOCNode Title="ButtonPressedForegroundColor Property " Url="html/e662e6ce-3e15-c1eb-50ad-261d85699ace.htm" />
+        <HelpTOCNode Title="ComboBoxButtonMouseOverBackgroundColor Property " Url="html/5b4c16b0-c8c5-9b30-842b-1b46157e0c56.htm" />
+        <HelpTOCNode Title="ComboBoxDisabledGlyphColor Property " Url="html/b81696ad-d3fd-7256-405a-261ec44973a4.htm" />
+        <HelpTOCNode Title="ComboBoxGlyphColor Property " Url="html/4e509d20-e89b-d933-af13-a57e9c4a4b6b.htm" />
+        <HelpTOCNode Title="ComboBoxPopupBackground Property " Url="html/3d16a638-98bc-66d6-4a5e-de8bc3fe6c10.htm" />
+        <HelpTOCNode Title="DisabledTextColor Property " Url="html/01f5c33f-aede-1f8f-5639-4844d6ddd750.htm" />
+        <HelpTOCNode Title="Instance Property " Url="html/61aca11d-b14c-80a5-519e-1e07ca09bedd.htm" />
+        <HelpTOCNode Title="ItemBorderColor Property " Url="html/b53c8f48-1641-025f-6bb4-6a8b173ae7fb.htm" />
+        <HelpTOCNode Title="ItemColor Property " Url="html/1035558f-6ba6-14e3-8002-a77740fd35db.htm" />
+        <HelpTOCNode Title="ItemHoverBorderColor Property " Url="html/666d3405-e801-aa51-9d03-a1d9d7d18d6c.htm" />
+        <HelpTOCNode Title="ItemHoverColor Property " Url="html/ac23f9f7-869e-4d72-e5fe-a03b80953f9c.htm" />
+        <HelpTOCNode Title="ItemHoverTextColor Property " Url="html/1d3c0043-68aa-8174-d64e-eaff9f29f995.htm" />
+        <HelpTOCNode Title="ItemSelectedBorderColor Property " Url="html/746bd166-b3ef-78d2-d156-964a2e63661b.htm" />
+        <HelpTOCNode Title="ItemSelectedBorderNotFocusedColor Property " Url="html/04fc0c76-27c1-3f2f-5c33-425185aa6c6c.htm" />
+        <HelpTOCNode Title="ItemSelectedColor Property " Url="html/1554791e-126d-0881-0247-faff529ca70e.htm" />
+        <HelpTOCNode Title="ItemSelectedNotFocusedColor Property " Url="html/89ce9872-a243-b8d1-8c08-0cebe255f9cd.htm" />
+        <HelpTOCNode Title="ItemSelectedTextColor Property " Url="html/23d9a28d-c6de-22b6-99be-22655e10b1cd.htm" />
+        <HelpTOCNode Title="ItemSelectedTextNotFocusedColor Property " Url="html/828d59ae-d629-9e88-3a33-7359c991806a.htm" />
+        <HelpTOCNode Title="ItemTextColor Property " Url="html/a0cafee8-0652-7d80-7b67-c95840e344ba.htm" />
+        <HelpTOCNode Title="LightBorderColor Property " Url="html/3016b650-5958-32a8-02c5-1e50b2865590.htm" />
+        <HelpTOCNode Title="LinkTextColor Property " Url="html/42671a02-9ef2-934a-882b-84bf61d16360.htm" />
+        <HelpTOCNode Title="LinkTextHoverColor Property " Url="html/e497a49c-b50e-efa0-bba9-424a97c500c7.htm" />
+        <HelpTOCNode Title="MenuBackgroundColor Property " Url="html/ed1a7a76-2eb0-dc2f-ee1b-8615c7088a89.htm" />
+        <HelpTOCNode Title="MenuBorderColor Property " Url="html/fa9ff81e-18c2-40b6-0416-3504eeff9dc7.htm" />
+        <HelpTOCNode Title="MenuHoverBackgroundColor Property " Url="html/36b3da89-8def-9fb7-b7aa-4c7f1a46f6ba.htm" />
+        <HelpTOCNode Title="MenuHoverTextColor Property " Url="html/2957cdf2-a743-4dd6-6a2b-a013e2fdee76.htm" />
+        <HelpTOCNode Title="MenuSeparatorColor Property " Url="html/3cafe49b-fc5a-6cd6-c40a-42b9fc533596.htm" />
+        <HelpTOCNode Title="MenuTextColor Property " Url="html/30a3a27e-bb07-314e-f120-05371642327c.htm" />
+        <HelpTOCNode Title="NotificationColor Property " Url="html/8d22fe60-f943-c74b-3041-402be375fe3b.htm" />
+        <HelpTOCNode Title="NotificationTextColor Property " Url="html/f81ef063-81ea-516b-3352-2483d16c51a4.htm" />
+        <HelpTOCNode Title="TextBoxBorderColor Property " Url="html/54586845-cfec-3f91-f0d0-17ccbb3e83ea.htm" />
+        <HelpTOCNode Title="TextBoxColor Property " Url="html/7d161a0a-77c1-de96-7971-80bb1a0f7a7a.htm" />
+        <HelpTOCNode Title="TextBoxTextColor Property " Url="html/d5af1b7d-5e6b-2d8d-bf12-3905093f8dcb.htm" />
+        <HelpTOCNode Title="ToolWindowBackgroundColor Property " Url="html/707a483a-094b-d5f2-b1e8-1cdce803927d.htm" />
+        <HelpTOCNode Title="ToolWindowBorderColor Property " Url="html/242782b3-5365-190f-ed31-9416a522a724.htm" />
+        <HelpTOCNode Title="ToolWindowTextColor Property " Url="html/bb325325-aef4-1592-4dcc-2e44090e5d75.htm" />
+        <HelpTOCNode Title="TreeViewGlyphColor Property " Url="html/43a8a7ac-4ba0-ad37-0d1d-03a2b4304a8d.htm" />
+        <HelpTOCNode Title="TreeViewHoverGlyphColor Property " Url="html/c45e8dcb-2fd6-773e-b164-26ea05fa6c24.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Title="ThemeColors Methods" Url="html/d2bd31a1-744d-1cc6-3cbc-998aca49667b.htm" />
+      <HelpTOCNode Id="5e6cd5bf-f0b7-439b-95f9-39996164483b" Title="ThemeColors Events" Url="html/2970cd3a-db88-d103-cde7-d0f642d915b6.htm">
+        <HelpTOCNode Title="PropertyChanged Event" Url="html/edd24f29-2084-a8ce-1242-2630c33ec314.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+  </HelpTOCNode>
+  <HelpTOCNode Id="a26acead-0187-43a1-bf21-99a2773c105f" Title="SandcastleBuilder.WPF.UserControls" Url="html/e01f2c15-13b2-e6d5-9f46-cfddd45965b9.htm">
+    <HelpTOCNode Id="af147e4c-b5df-4a90-ad9c-1ead71c9ba54" Title="BuildLogViewerControl Class" Url="html/73eeca4f-5f19-b7bd-7ae1-49eb3278725e.htm">
+      <HelpTOCNode Title="BuildLogViewerControl Constructor " Url="html/b85146ff-cc4e-e4fd-9301-fc16288c5e63.htm" />
+      <HelpTOCNode Id="a9e36385-80fb-4032-8104-65fc5385d9aa" Title="BuildLogViewerControl Properties" Url="html/91e1d900-2299-4a37-f5e8-431dd193d94a.htm">
+        <HelpTOCNode Title="LogFilename Property " Url="html/08fa3ce4-3333-ac16-edb6-56c419114fb5.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="a9c52741-2304-448c-9f7c-e965484c5982" Title="BuildLogViewerControl Methods" Url="html/6b186545-40d5-87ef-055d-efb1126d1112.htm">
+        <HelpTOCNode Title="InitializeComponent Method " Url="html/7e68f7db-6e3d-0558-cff7-033af5397de9.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Title="BuildLogViewerControl Events" Url="html/9aabc3a6-2ef3-1d21-8578-244d4aebf509.htm" />
+    </HelpTOCNode>
+    <HelpTOCNode Id="a76b4e9e-6358-4cd6-ace9-61118df9ffd9" Title="ContentLayoutEditorControl Class" Url="html/80c2781c-7713-b923-8d49-4f7375e0da7a.htm">
+      <HelpTOCNode Title="ContentLayoutEditorControl Constructor " Url="html/ad988ce6-ca12-6891-c1d4-67b859650255.htm" />
+      <HelpTOCNode Id="5889bda1-cd23-45e9-b2b4-568bee4ce3f4" Title="ContentLayoutEditorControl Properties" Url="html/96513870-361b-11a8-c4b0-60e319766274.htm">
+        <HelpTOCNode Title="CurrentTopic Property " Url="html/f275cdd2-f614-4645-54c3-aafbcbafbe73.htm" />
+        <HelpTOCNode Title="Topics Property " Url="html/65bdceb3-fc0d-ef0f-f803-1f0ec32ae022.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="1f0e7fa6-3121-4d50-8b70-d16b4ec89df1" Title="ContentLayoutEditorControl Methods" Url="html/db6ee2e1-e7d4-5cfe-4045-615d7cdcd7d4.htm">
+        <HelpTOCNode Title="InitializeComponent Method " Url="html/e72ad36c-0204-9bed-b082-6a6a371f4cd5.htm" />
+        <HelpTOCNode Title="LoadContentLayoutFile Method " Url="html/6282947b-a972-3892-ed41-2690a66cdfe9.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="a74e661d-311c-4f70-8271-e78dc1233705" Title="ContentLayoutEditorControl Events" Url="html/c4022af3-c3d9-2259-d2a8-f23c63001c6f.htm">
+        <HelpTOCNode Title="AssociateTopic Event" Url="html/54537f38-a170-f262-f66c-d8a9b2733215.htm" />
+        <HelpTOCNode Title="ContentModified Event" Url="html/291cb9c1-9188-bf72-4eb1-2770208297c2.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="4e8721eb-262b-40a2-8999-2f2f972d77be" Title="ContentLayoutEditorControl Fields" Url="html/e06275ea-4ba7-7938-bb28-547491aa76ac.htm">
+        <HelpTOCNode Title="AssociateTopicEvent Field" Url="html/024f7f31-86d2-1b1b-44a8-d078380ff559.htm" />
+        <HelpTOCNode Title="ContentModifiedEvent Field" Url="html/d8cbdfef-1c80-cfc7-4fe4-4a7d3c165046.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="b23c76b4-3c1f-4d42-b3b7-ad503a1aa397" Title="EntityReferencesControl Class" Url="html/e6bfbd16-e065-c24f-64ad-19cf68491351.htm">
+      <HelpTOCNode Title="EntityReferencesControl Constructor " Url="html/cb89eed2-c52a-0f1a-cf0c-dd82f8473634.htm" />
+      <HelpTOCNode Id="45244289-435a-4360-b3ff-8d91b4e9ae12" Title="EntityReferencesControl Properties" Url="html/24a23b81-d064-7522-cfcf-5813f4215e9b.htm">
+        <HelpTOCNode Title="AllowAnimatedGif Property " Url="html/21401182-05b8-b28e-ec06-1b476330c278.htm" />
+        <HelpTOCNode Title="CurrentProject Property " Url="html/7f0f4bbe-ed9e-8d06-5405-7c299c8b1c6a.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="d6fe3494-fb85-47e4-9815-e1820c3bfa7e" Title="EntityReferencesControl Methods" Url="html/046cf430-8a5e-9bfb-be73-076f544a9e55.htm">
+        <HelpTOCNode Title="InitializeComponent Method " Url="html/8e71c168-d296-6d11-afae-728328109d38.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="27e4c7eb-4af8-4c5a-b5bc-86f297747b07" Title="EntityReferencesControl Events" Url="html/379a4586-1bc3-cdcf-1871-47bfd1ea564f.htm">
+        <HelpTOCNode Title="FileContentNeeded Event" Url="html/56a846f8-5284-b8b8-5706-5533e3626631.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="25cb5d39-2079-4ee7-b847-88c34af871cd" Title="EntityReferencesControl Fields" Url="html/d85b22fc-6748-ea13-da02-c83ab5f25713.htm">
+        <HelpTOCNode Title="FileContentNeededEvent Field" Url="html/f58ae138-fabb-1ac2-6b63-76c85e5bde3d.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="3a8efa61-0784-474a-ba5c-4c107b1f4262" Title="FileContentNeededEventArgs Class" Url="html/59fabe8e-409b-8c99-331c-59db5e0fd294.htm">
+      <HelpTOCNode Title="FileContentNeededEventArgs Constructor " Url="html/d2d86fc2-c953-2e89-5f8d-b25be6fb18c3.htm" />
+      <HelpTOCNode Id="da0a1819-574f-4789-aaa0-3aea2d2befce" Title="FileContentNeededEventArgs Properties" Url="html/51bbd095-291e-0eca-b3cd-648c05908b10.htm">
+        <HelpTOCNode Title="ContentLayoutFiles Property " Url="html/83064116-6ed3-c3aa-0f36-65ad3b307ffb.htm" />
+        <HelpTOCNode Title="SiteMapFiles Property " Url="html/6eefe025-ca75-6251-20b5-4c3418f29a85.htm" />
+        <HelpTOCNode Title="TokenFiles Property " Url="html/764f28df-ccfa-f902-ab51-6ed380e37d6a.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Title="FileContentNeededEventArgs Methods" Url="html/6aec85e2-3954-0d7e-39d7-5e12f9b7e585.htm" />
+    </HelpTOCNode>
+    <HelpTOCNode Id="38163b2f-2470-42a5-99d5-beecf0909bd1" Title="ResourceItemEditorControl Class" Url="html/d9e213da-9ce2-206f-5eff-191c214e7f41.htm">
+      <HelpTOCNode Title="ResourceItemEditorControl Constructor " Url="html/c90411f6-8db9-6d75-e272-27f987189253.htm" />
+      <HelpTOCNode Title="ResourceItemEditorControl Properties" Url="html/c45d1525-b55f-d11c-b333-c33a911500fa.htm" />
+      <HelpTOCNode Id="2c9eac97-141f-4afb-b812-11b63bbc6163" Title="ResourceItemEditorControl Methods" Url="html/8c51b709-7713-46d1-8365-651e4299c268.htm">
+        <HelpTOCNode Title="InitializeComponent Method " Url="html/9f8e8073-db3f-446f-cb5c-a56280c739fc.htm" />
+        <HelpTOCNode Title="LoadResourceItemsFile Method " Url="html/bbf57917-5ea5-5bbe-b14a-d94a50a59f78.htm" />
+        <HelpTOCNode Title="Save Method " Url="html/bcac63a8-bfd7-1d02-525e-54e812fa1ab1.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="bf6d7e52-8a38-46ac-a832-2ae60b63e448" Title="ResourceItemEditorControl Events" Url="html/1ea58faa-a9a9-c050-5fa5-1eb64818d66e.htm">
+        <HelpTOCNode Title="ContentModified Event" Url="html/d1d207a5-8a6b-823e-3319-a420526ff8d3.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="6cb598e0-50de-4590-99ca-0d26c69c7d00" Title="ResourceItemEditorControl Fields" Url="html/6dbc95cb-72a1-c287-aa77-66f34cfa2dfa.htm">
+        <HelpTOCNode Title="ContentModifiedEvent Field" Url="html/aa94a0bf-a405-5d90-4d17-5c935d779f8c.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="7ff2d599-c2d6-4838-ac89-2ac23711ff29" Title="SiteMapEditorControl Class" Url="html/43037e2a-0e8d-73a0-fbe4-860a72c4595a.htm">
+      <HelpTOCNode Title="SiteMapEditorControl Constructor " Url="html/b0b32e57-0e6c-413d-ec97-dacf0db81eba.htm" />
+      <HelpTOCNode Id="0686b6f6-898a-42d9-880a-56d4892eddca" Title="SiteMapEditorControl Properties" Url="html/37363ca8-962a-a3f4-116c-64a80da2b9de.htm">
+        <HelpTOCNode Title="CurrentTopic Property " Url="html/c3380876-fe7a-5538-435f-e2e961bd1764.htm" />
+        <HelpTOCNode Title="Topics Property " Url="html/9cd2b108-b2ec-7c8c-6ea1-808befa4b1c9.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="0dad4a93-3fa1-4d62-8182-32ba3baae382" Title="SiteMapEditorControl Methods" Url="html/3aecad4f-b5a8-ed6c-c331-c7614a291834.htm">
+        <HelpTOCNode Title="InitializeComponent Method " Url="html/8ebfb0ab-d27f-b42c-abdf-f94c4d4e910d.htm" />
+        <HelpTOCNode Title="LoadSiteMapFile Method " Url="html/6f7d9263-dc9e-ac2a-b6d1-63e5d11221b5.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="c61c23de-c004-4533-af3c-c33308e000c4" Title="SiteMapEditorControl Events" Url="html/554c2497-df7d-dcb5-0304-f8a430e0fca6.htm">
+        <HelpTOCNode Title="AssociateTopic Event" Url="html/e29b1c25-61db-0df2-0e56-ee3d63d57237.htm" />
+        <HelpTOCNode Title="ContentModified Event" Url="html/86c41abe-0068-a1eb-fb48-4502a4b65d33.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="2f02858b-a8ff-44e9-8086-64be37f5820d" Title="SiteMapEditorControl Fields" Url="html/b810ef8b-3142-86af-a588-7bb5abc963cd.htm">
+        <HelpTOCNode Title="AssociateTopicEvent Field" Url="html/d42f481f-2638-b578-8ed1-41fdcea4fca2.htm" />
+        <HelpTOCNode Title="ContentModifiedEvent Field" Url="html/07fda56f-60dd-b15e-a00a-edefd4576085.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="c3d0c734-ddd5-499a-baeb-9a2ed570afc1" Title="TokenEditorControl Class" Url="html/e3948ccc-f6d7-2ab3-f414-1f6708d3f932.htm">
+      <HelpTOCNode Title="TokenEditorControl Constructor " Url="html/63cca557-757f-1fa7-3db2-4cf3760ed75e.htm" />
+      <HelpTOCNode Id="3aef0e4f-3eed-41a3-b28e-bc6607083be2" Title="TokenEditorControl Properties" Url="html/7c03e060-0fb8-1e15-08dd-3df656399ab5.htm">
+        <HelpTOCNode Title="Tokens Property " Url="html/7bc5d389-7bd4-9c29-c66c-55c9515f6340.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="373327c4-20a3-47af-b5f7-e5ccab3a2173" Title="TokenEditorControl Methods" Url="html/9ac14705-b7de-3908-8fee-cd38434f9416.htm">
+        <HelpTOCNode Title="InitializeComponent Method " Url="html/d7216819-e7f3-8437-585a-5900d0409d80.htm" />
+        <HelpTOCNode Title="LoadTokenFile Method " Url="html/d32064a5-d67d-5070-f661-782e0d1c3e73.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="a9dbd5e9-7a9b-4af9-a59f-479c819d9d27" Title="TokenEditorControl Events" Url="html/c9bbb86e-56b1-a77f-2544-bd0ec6cae027.htm">
+        <HelpTOCNode Title="ContentModified Event" Url="html/0b3f0588-c42e-8817-9a48-5a152ee8fd68.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="ca58e7fa-edac-4384-babe-4d3634308918" Title="TokenEditorControl Fields" Url="html/1597a714-de3f-1269-0193-5084e029ce93.htm">
+        <HelpTOCNode Title="ContentModifiedEvent Field" Url="html/f9a4c7ef-7141-4773-74c6-78104ba1e560.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="19d6206b-1cc3-49f9-90d3-2eb71cf23247" Title="TopicContentNeededEventArgs Class" Url="html/ad3d01b5-c7de-becd-feaa-12648ed52adf.htm">
+      <HelpTOCNode Title="TopicContentNeededEventArgs Constructor " Url="html/4d2887d3-bbcb-c974-cd9b-18e661162c60.htm" />
+      <HelpTOCNode Id="5dfce1ab-3420-4e4a-9bf4-50a0a7ba16b6" Title="TopicContentNeededEventArgs Properties" Url="html/3191bb13-a8a2-4446-8526-6aaa8f1e70ed.htm">
+        <HelpTOCNode Title="TopicContent Property " Url="html/ca4a180d-9306-6f8a-b34c-0eb9cf12c0d6.htm" />
+        <HelpTOCNode Title="TopicFilename Property " Url="html/55858343-93ee-9e87-5b36-f2d8eadf8522.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Title="TopicContentNeededEventArgs Methods" Url="html/da01dea9-6b6c-d04f-2dba-ec114a1658e5.htm" />
+    </HelpTOCNode>
+    <HelpTOCNode Id="6acb7c72-d275-48b4-a97b-9f531f338983" Title="TopicPreviewerControl Class" Url="html/45ecd7aa-10f6-0981-3afd-06128981652b.htm">
+      <HelpTOCNode Title="TopicPreviewerControl Constructor " Url="html/eab0af3a-7a8b-1d3a-ce7d-6fbdd27e68ae.htm" />
+      <HelpTOCNode Id="dde1198b-8bbd-48a0-9777-8a4214c639b6" Title="TopicPreviewerControl Properties" Url="html/dbb39758-3be0-b81c-423a-5b5878183387.htm">
+        <HelpTOCNode Title="CurrentProject Property " Url="html/f011942d-de4b-72d7-c137-dca59823352b.htm" />
+        <HelpTOCNode Title="CurrentTopic Property " Url="html/acbee20f-d859-4a3d-ef32-67eb7a13d12e.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="477aecc8-3115-45d1-8779-50173c795551" Title="TopicPreviewerControl Methods" Url="html/f04040b9-1f0e-3c76-4493-8362f0fad32e.htm">
+        <HelpTOCNode Title="FindAndDisplay Method " Url="html/572b2139-b42a-94c6-128a-f93dd9dea072.htm" />
+        <HelpTOCNode Title="InitializeComponent Method " Url="html/3fbfed2b-39fe-264d-a86f-293bba4652d7.htm" />
+        <HelpTOCNode Title="Refresh Method " Url="html/61e503d4-fa60-7e7d-09d2-25e2d6879e07.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="ed9105ed-e4ce-4b53-8e7f-a3acacfbe287" Title="TopicPreviewerControl Events" Url="html/f9715356-73e3-254c-f56c-d1364e7942c6.htm">
+        <HelpTOCNode Title="FileContentNeeded Event" Url="html/25da1348-668e-525c-ee5b-06d995accff8.htm" />
+        <HelpTOCNode Title="TopicContentNeeded Event" Url="html/7b3a339e-afe5-a16f-977d-14bb1b7c4e83.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="df068014-3c19-44c8-b477-a9d87054d852" Title="TopicPreviewerControl Fields" Url="html/1ee60d34-93b2-1163-91a3-10d3e91af43d.htm">
+        <HelpTOCNode Title="FileContentNeededEvent Field" Url="html/e8d7816f-5c0d-9d85-a46a-a744f0fada67.htm" />
+        <HelpTOCNode Title="TopicContentNeededEvent Field" Url="html/e6fd942c-373e-f3d8-02b1-5792154c3d03.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+  </HelpTOCNode>
+  <HelpTOCNode Id="3a1dd5b7-aaee-49d6-8058-b28fac777fa2" Title="XamlGeneratedNamespace" Url="html/d56f9899-ea68-441a-14bf-b7e43a3035c7.htm">
+    <HelpTOCNode Id="a1a71335-db68-4984-b9b1-7b2f87bccc36" Title="GeneratedInternalTypeHelper Class" Url="html/55cad188-76ae-4170-e16c-99dd7b48db5f.htm">
+      <HelpTOCNode Title="GeneratedInternalTypeHelper Constructor " Url="html/8b8b175e-3043-79cf-8ba0-588df41d0b04.htm" />
+      <HelpTOCNode Title="GeneratedInternalTypeHelper Methods" Url="html/a04b6924-91d1-864e-2274-8ccd6e864414.htm" />
+    </HelpTOCNode>
+  </HelpTOCNode>
+</HelpTOC>

@@ -1,0 +1,614 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<HelpKI>
+  <HelpKINode Title="AddAllFromFolder property" Url="html/bb3e11c2-9ad7-560a-b789-40680782408c.htm" />
+  <HelpKINode Title="AddExistingFile property" Url="html/ab6b77de-5a30-6db1-1db1-969f4cbc7edc.htm" />
+  <HelpKINode Title="AddFromTemplate property" Url="html/ce571b9a-54c0-0286-28d8-9cc09f13e7bd.htm" />
+  <HelpKINode Title="AddItem property" Url="html/550b787d-26ad-a20d-ef25-f81195dab578.htm" />
+  <HelpKINode Title="AlertBody field" Url="html/a8e842fb-fb5c-c2bc-8fa3-bc4d03f122eb.htm" />
+  <HelpKINode Title="AlertIcons property" Url="html/f2aae77f-c447-23b4-a691-f8f854598e8d.htm" />
+  <HelpKINode Title="AlertTitle field" Url="html/12fc3abb-079d-311c-db87-982536e36cfd.htm" />
+  <HelpKINode Title="AlertTitles property" Url="html/0ceac954-4f58-a1da-bc0e-b1be915d393a.htm" />
+  <HelpKINode Title="AllowAnimatedGif property" Url="html/21401182-05b8-b28e-ec06-1b476330c278.htm" />
+  <HelpKINode Title="AssociateTopic event">
+    <HelpKINode Title="ContentLayoutEditorControl.AssociateTopic Event" Url="html/54537f38-a170-f262-f66c-d8a9b2733215.htm" />
+    <HelpKINode Title="SiteMapEditorControl.AssociateTopic Event" Url="html/e29b1c25-61db-0df2-0e56-ee3d63d57237.htm" />
+  </HelpKINode>
+  <HelpKINode Title="AssociateTopicEvent field">
+    <HelpKINode Title="ContentLayoutEditorControl.AssociateTopicEvent Field" Url="html/024f7f31-86d2-1b1b-44a8-d078380ff559.htm" />
+    <HelpKINode Title="SiteMapEditorControl.AssociateTopicEvent Field" Url="html/d42f481f-2638-b578-8ed1-41fdcea4fca2.htm" />
+  </HelpKINode>
+  <HelpKINode Title="AutoScrollIfNeeded method" Url="html/6ff3a7be-2efb-eb32-18be-7806c217b429.htm" />
+  <HelpKINode Title="AutoSizeTableColumns method" Url="html/fa2aefc0-4971-d508-49c1-9968d082f513.htm" />
+  <HelpKINode Title="BuildLogViewerControl class">
+    <HelpKINode Title="BuildLogViewerControl Class" Url="html/73eeca4f-5f19-b7bd-7ae1-49eb3278725e.htm" />
+    <HelpKINode Title="about BuildLogViewerControl class" Url="html/73eeca4f-5f19-b7bd-7ae1-49eb3278725e.htm" />
+    <HelpKINode Title="constructor" Url="html/b85146ff-cc4e-e4fd-9301-fc16288c5e63.htm" />
+    <HelpKINode Title="events" Url="html/9aabc3a6-2ef3-1d21-8578-244d4aebf509.htm" />
+    <HelpKINode Title="methods" Url="html/6b186545-40d5-87ef-055d-efb1126d1112.htm" />
+    <HelpKINode Title="properties" Url="html/91e1d900-2299-4a37-f5e8-431dd193d94a.htm" />
+  </HelpKINode>
+  <HelpKINode Title="BuildLogViewerControl.BuildLogViewerControl constructor" Url="html/b85146ff-cc4e-e4fd-9301-fc16288c5e63.htm" />
+  <HelpKINode Title="BuildLogViewerControl.InitializeComponent method" Url="html/7e68f7db-6e3d-0558-cff7-033af5397de9.htm" />
+  <HelpKINode Title="BuildLogViewerControl.LogFilename property" Url="html/08fa3ce4-3333-ac16-edb6-56c419114fb5.htm" />
+  <HelpKINode Title="ButtonBackgroundColor property" Url="html/fe5acac3-2d72-32d3-5907-744b8ad3585c.htm" />
+  <HelpKINode Title="ButtonBorderColor property" Url="html/03fae4d6-4b3f-4196-85b8-44a91cb0734f.htm" />
+  <HelpKINode Title="ButtonDisabledBackgroundColor property" Url="html/34e8f470-3193-d6b3-0ca8-d15ab9779f8d.htm" />
+  <HelpKINode Title="ButtonDisabledBorderColor property" Url="html/0a82680d-44b0-a407-b26e-a25cfa42c235.htm" />
+  <HelpKINode Title="ButtonDisabledForegroundColor property" Url="html/8f22ae98-611f-e842-4d9d-b9b841de74fc.htm" />
+  <HelpKINode Title="ButtonForegroundColor property" Url="html/e293a579-8101-8603-5ba0-66813faa4839.htm" />
+  <HelpKINode Title="ButtonHoverBackgroundColor property" Url="html/449e4adb-a186-83dd-b149-767e00dc2379.htm" />
+  <HelpKINode Title="ButtonHoverBorderColor property" Url="html/640a634f-7dfb-0890-cb52-5b2ed01c5a71.htm" />
+  <HelpKINode Title="ButtonHoverForegroundColor property" Url="html/a4a13adf-0f15-8cc6-3dc2-1207970c81c4.htm" />
+  <HelpKINode Title="ButtonPressedBackgroundColor property" Url="html/4ace9616-ff4a-345e-2974-989dcac7d963.htm" />
+  <HelpKINode Title="ButtonPressedBorderColor property" Url="html/1e43054f-799d-4884-cba1-bbd36c00b8ac.htm" />
+  <HelpKINode Title="ButtonPressedForegroundColor property" Url="html/e662e6ce-3e15-c1eb-50ad-261d85699ace.htm" />
+  <HelpKINode Title="CodeBlock field" Url="html/9a35171f-42b9-f5c6-6cf7-0ab0e7aa32f2.htm" />
+  <HelpKINode Title="CodeColorizer property" Url="html/e6b00c90-97d7-c99e-1cc3-03e2051ff80e.htm" />
+  <HelpKINode Title="CodeInline field" Url="html/b8d8eac8-9e26-36f6-f877-6de6d99c7af0.htm" />
+  <HelpKINode Title="CollapseAll property" Url="html/f5284bd5-a177-9349-e2cc-36e8802cdba9.htm" />
+  <HelpKINode Title="CollapseCurrent property" Url="html/f6eda0b3-2f96-9571-c2c9-cfa965d79ad0.htm" />
+  <HelpKINode Title="ColorizerFlowDocumentTemplate property" Url="html/92862633-126c-6cfe-0ea9-a4f9676d4eb9.htm" />
+  <HelpKINode Title="ComboBoxButtonMouseOverBackgroundColor property" Url="html/5b4c16b0-c8c5-9b30-842b-1b46157e0c56.htm" />
+  <HelpKINode Title="ComboBoxDisabledGlyphColor property" Url="html/b81696ad-d3fd-7256-405a-261ec44973a4.htm" />
+  <HelpKINode Title="ComboBoxGlyphColor property" Url="html/4e509d20-e89b-d933-af13-a57e9c4a4b6b.htm" />
+  <HelpKINode Title="ComboBoxPopupBackground property" Url="html/3d16a638-98bc-66d6-4a5e-de8bc3fe6c10.htm" />
+  <HelpKINode Title="CommitChanges method" Url="html/b367b466-4855-1913-acb8-27d2a042741f.htm" />
+  <HelpKINode Title="ContentLayoutEditorControl class">
+    <HelpKINode Title="ContentLayoutEditorControl Class" Url="html/80c2781c-7713-b923-8d49-4f7375e0da7a.htm" />
+    <HelpKINode Title="about ContentLayoutEditorControl class" Url="html/80c2781c-7713-b923-8d49-4f7375e0da7a.htm" />
+    <HelpKINode Title="constructor" Url="html/ad988ce6-ca12-6891-c1d4-67b859650255.htm" />
+    <HelpKINode Title="events" Url="html/c4022af3-c3d9-2259-d2a8-f23c63001c6f.htm" />
+    <HelpKINode Title="fields" Url="html/e06275ea-4ba7-7938-bb28-547491aa76ac.htm" />
+    <HelpKINode Title="methods" Url="html/db6ee2e1-e7d4-5cfe-4045-615d7cdcd7d4.htm" />
+    <HelpKINode Title="properties" Url="html/96513870-361b-11a8-c4b0-60e319766274.htm" />
+  </HelpKINode>
+  <HelpKINode Title="ContentLayoutEditorControl.AssociateTopic event" Url="html/54537f38-a170-f262-f66c-d8a9b2733215.htm" />
+  <HelpKINode Title="ContentLayoutEditorControl.AssociateTopicEvent field" Url="html/024f7f31-86d2-1b1b-44a8-d078380ff559.htm" />
+  <HelpKINode Title="ContentLayoutEditorControl.ContentLayoutEditorControl constructor" Url="html/ad988ce6-ca12-6891-c1d4-67b859650255.htm" />
+  <HelpKINode Title="ContentLayoutEditorControl.ContentModified event" Url="html/291cb9c1-9188-bf72-4eb1-2770208297c2.htm" />
+  <HelpKINode Title="ContentLayoutEditorControl.ContentModifiedEvent field" Url="html/d8cbdfef-1c80-cfc7-4fe4-4a7d3c165046.htm" />
+  <HelpKINode Title="ContentLayoutEditorControl.CurrentTopic property" Url="html/f275cdd2-f614-4645-54c3-aafbcbafbe73.htm" />
+  <HelpKINode Title="ContentLayoutEditorControl.InitializeComponent method" Url="html/e72ad36c-0204-9bed-b082-6a6a371f4cd5.htm" />
+  <HelpKINode Title="ContentLayoutEditorControl.LoadContentLayoutFile method" Url="html/6282947b-a972-3892-ed41-2690a66cdfe9.htm" />
+  <HelpKINode Title="ContentLayoutEditorControl.Topics property" Url="html/65bdceb3-fc0d-ef0f-f803-1f0ec32ae022.htm" />
+  <HelpKINode Title="ContentLayoutFiles property" Url="html/83064116-6ed3-c3aa-0f36-65ad3b307ffb.htm" />
+  <HelpKINode Title="ContentModified event">
+    <HelpKINode Title="ContentLayoutEditorControl.ContentModified Event" Url="html/291cb9c1-9188-bf72-4eb1-2770208297c2.htm" />
+    <HelpKINode Title="ResourceItemEditorControl.ContentModified Event" Url="html/d1d207a5-8a6b-823e-3319-a420526ff8d3.htm" />
+    <HelpKINode Title="SiteMapEditorControl.ContentModified Event" Url="html/86c41abe-0068-a1eb-fb48-4502a4b65d33.htm" />
+    <HelpKINode Title="TokenEditorControl.ContentModified Event" Url="html/0b3f0588-c42e-8817-9a48-5a152ee8fd68.htm" />
+  </HelpKINode>
+  <HelpKINode Title="ContentModifiedEvent field">
+    <HelpKINode Title="ContentLayoutEditorControl.ContentModifiedEvent Field" Url="html/d8cbdfef-1c80-cfc7-4fe4-4a7d3c165046.htm" />
+    <HelpKINode Title="ResourceItemEditorControl.ContentModifiedEvent Field" Url="html/aa94a0bf-a405-5d90-4d17-5c935d779f8c.htm" />
+    <HelpKINode Title="SiteMapEditorControl.ContentModifiedEvent Field" Url="html/07fda56f-60dd-b15e-a00a-edefd4576085.htm" />
+    <HelpKINode Title="TokenEditorControl.ContentModifiedEvent Field" Url="html/f9a4c7ef-7141-4773-74c6-78104ba1e560.htm" />
+  </HelpKINode>
+  <HelpKINode Title="ControlExtensions class">
+    <HelpKINode Title="ControlExtensions Class" Url="html/0d3ccd17-b90e-f374-e65b-683dd294820e.htm" />
+    <HelpKINode Title="about ControlExtensions class" Url="html/0d3ccd17-b90e-f374-e65b-683dd294820e.htm" />
+    <HelpKINode Title="methods" Url="html/3c2da75e-2ab5-6db3-d703-76bb0e57eff5.htm" />
+  </HelpKINode>
+  <HelpKINode Title="ControlExtensions.AutoScrollIfNeeded method" Url="html/6ff3a7be-2efb-eb32-18be-7806c217b429.htm" />
+  <HelpKINode Title="ControlExtensions.AutoSizeTableColumns method" Url="html/fa2aefc0-4971-d508-49c1-9968d082f513.htm" />
+  <HelpKINode Title="ControlExtensions.CommitChanges method" Url="html/b367b466-4855-1913-acb8-27d2a042741f.htm" />
+  <HelpKINode Title="ControlExtensions.Find(Of T) method" Url="html/889eedb2-8ed8-8542-376e-40122409b5d7.htm" />
+  <HelpKINode Title="ControlExtensions.Find&lt;T&gt; method" Url="html/889eedb2-8ed8-8542-376e-40122409b5d7.htm" />
+  <HelpKINode Title="ControlExtensions.FindByName method" Url="html/d3218ef8-30df-65e5-4ff9-11861bbb9136.htm" />
+  <HelpKINode Title="ControlExtensions.Flatten method" Url="html/6fd4ca56-0fdc-94d9-5793-4ee3b34aaba6.htm" />
+  <HelpKINode Title="ControlExtensions.ParentElementOfType(Of T) method" Url="html/ed963e74-25d1-b06c-d9fc-a43ad4ea2dc9.htm" />
+  <HelpKINode Title="ControlExtensions.ParentElementOfType&lt;T&gt; method" Url="html/ed963e74-25d1-b06c-d9fc-a43ad4ea2dc9.htm" />
+  <HelpKINode Title="CurrentProject property">
+    <HelpKINode Title="EntityReferencesControl.CurrentProject Property " Url="html/7f0f4bbe-ed9e-8d06-5405-7c299c8b1c6a.htm" />
+    <HelpKINode Title="TopicPreviewerControl.CurrentProject Property " Url="html/f011942d-de4b-72d7-c137-dca59823352b.htm" />
+  </HelpKINode>
+  <HelpKINode Title="CurrentTopic property">
+    <HelpKINode Title="ContentLayoutEditorControl.CurrentTopic Property " Url="html/f275cdd2-f614-4645-54c3-aafbcbafbe73.htm" />
+    <HelpKINode Title="SiteMapEditorControl.CurrentTopic Property " Url="html/c3380876-fe7a-5538-435f-e2e961bd1764.htm" />
+    <HelpKINode Title="TopicPreviewerControl.CurrentTopic Property " Url="html/acbee20f-d859-4a3d-ef32-67eb7a13d12e.htm" />
+  </HelpKINode>
+  <HelpKINode Title="DefinedTerm field" Url="html/a2d82924-7ed6-3721-4e1b-8fd480f9b741.htm" />
+  <HelpKINode Title="Definition field" Url="html/4fb950e2-d7b7-2391-d43e-df8371ba4de3.htm" />
+  <HelpKINode Title="DisabledTextColor property" Url="html/01f5c33f-aede-1f8f-5639-4844d6ddd750.htm" />
+  <HelpKINode Title="DropDownButton class">
+    <HelpKINode Title="DropDownButton Class" Url="html/20034471-923c-70f5-d8e8-4454f91c76dc.htm" />
+    <HelpKINode Title="about DropDownButton class" Url="html/20034471-923c-70f5-d8e8-4454f91c76dc.htm" />
+    <HelpKINode Title="constructor" Url="html/b860a840-4323-2820-2c5b-b691d7085edd.htm" />
+    <HelpKINode Title="events" Url="html/1143cc4b-c84a-268d-72ee-45f2d7cb10e3.htm" />
+    <HelpKINode Title="fields" Url="html/d9ab8b7e-6e1b-9cb7-4a00-f5f0aadc9d11.htm" />
+    <HelpKINode Title="methods" Url="html/c003221e-2643-0416-72c9-47599c8f3447.htm" />
+    <HelpKINode Title="properties" Url="html/7e5ada7e-5e0b-55de-d5f4-e9a0550fe5e9.htm" />
+  </HelpKINode>
+  <HelpKINode Title="DropDownButton.DropDownButton constructor" Url="html/b860a840-4323-2820-2c5b-b691d7085edd.htm" />
+  <HelpKINode Title="DropDownButton.DropDownButtonCommand property" Url="html/24f39f17-0517-acba-ff21-f0cb7d23ed0d.htm" />
+  <HelpKINode Title="DropDownButton.DropDownButtonCommandProperty field" Url="html/046d848f-a74c-68f6-6b65-a3fb387f22de.htm" />
+  <HelpKINode Title="DropDownButton.DropDownContextMenu property" Url="html/62587b0f-adcf-012a-29c5-6fff86febb31.htm" />
+  <HelpKINode Title="DropDownButton.DropDownContextMenuProperty field" Url="html/ad778bca-a6fb-0e56-999b-f5400034c0c1.htm" />
+  <HelpKINode Title="DropDownButton.Image property" Url="html/1cdf4ca4-74d5-e382-173d-d41e965386ad.htm" />
+  <HelpKINode Title="DropDownButton.ImageProperty field" Url="html/6c16eefb-c448-e08e-dfc7-e766610d4708.htm" />
+  <HelpKINode Title="DropDownButton.OnClick method" Url="html/79ac36cf-7b11-a262-25c0-3e4e3ca728f0.htm" />
+  <HelpKINode Title="DropDownButton.OnPropertyChanged method" Url="html/df82db52-8149-0443-0692-3f0c19d98edd.htm" />
+  <HelpKINode Title="DropDownButton.Target property" Url="html/48ebb2b8-28e4-69ab-43a0-369a35cc5e14.htm" />
+  <HelpKINode Title="DropDownButton.TargetProperty field" Url="html/a5ea11dd-ed2c-feff-d42f-ddca9ccee5e7.htm" />
+  <HelpKINode Title="DropDownButton.Text property" Url="html/6a8ed892-4794-61a3-b2e0-27244168a7f1.htm" />
+  <HelpKINode Title="DropDownButton.TextProperty field" Url="html/920e175e-41f9-9c27-49f3-2b7417920ba7.htm" />
+  <HelpKINode Title="DropDownButtonCommand property">
+    <HelpKINode Title="DropDownButton.DropDownButtonCommand Property " Url="html/24f39f17-0517-acba-ff21-f0cb7d23ed0d.htm" />
+    <HelpKINode Title="SplitButton.DropDownButtonCommand Property " Url="html/ac8205ea-307b-59fa-bb91-65d00b35ef4e.htm" />
+  </HelpKINode>
+  <HelpKINode Title="DropDownButtonCommandProperty field">
+    <HelpKINode Title="DropDownButton.DropDownButtonCommandProperty Field" Url="html/046d848f-a74c-68f6-6b65-a3fb387f22de.htm" />
+    <HelpKINode Title="SplitButton.DropDownButtonCommandProperty Field" Url="html/9b9fae72-9509-70db-21b7-6a2345eae914.htm" />
+  </HelpKINode>
+  <HelpKINode Title="DropDownContextMenu property">
+    <HelpKINode Title="DropDownButton.DropDownContextMenu Property " Url="html/62587b0f-adcf-012a-29c5-6fff86febb31.htm" />
+    <HelpKINode Title="SplitButton.DropDownContextMenu Property " Url="html/b2c38648-c194-57ca-74da-955b883fe501.htm" />
+  </HelpKINode>
+  <HelpKINode Title="DropDownContextMenuProperty field">
+    <HelpKINode Title="DropDownButton.DropDownContextMenuProperty Field" Url="html/ad778bca-a6fb-0e56-999b-f5400034c0c1.htm" />
+    <HelpKINode Title="SplitButton.DropDownContextMenuProperty Field" Url="html/e2750386-ed21-a502-8371-0fa8897e19f2.htm" />
+  </HelpKINode>
+  <HelpKINode Title="Edit property" Url="html/3f7c0237-3c1c-2340-3e57-11c57466e4df.htm" />
+  <HelpKINode Title="EditorCommands class">
+    <HelpKINode Title="EditorCommands Class" Url="html/8959de4e-b25b-3fbd-0ac4-e2ea0fb1a1fc.htm" />
+    <HelpKINode Title="about EditorCommands class" Url="html/8959de4e-b25b-3fbd-0ac4-e2ea0fb1a1fc.htm" />
+    <HelpKINode Title="properties" Url="html/ed3db2f1-e17e-5c42-2aa1-32453091ea68.htm" />
+  </HelpKINode>
+  <HelpKINode Title="EditorCommands.AddItem property" Url="html/550b787d-26ad-a20d-ef25-f81195dab578.htm" />
+  <HelpKINode Title="EditorCommands.CollapseAll property" Url="html/f5284bd5-a177-9349-e2cc-36e8802cdba9.htm" />
+  <HelpKINode Title="EditorCommands.CollapseCurrent property" Url="html/f6eda0b3-2f96-9571-c2c9-cfa965d79ad0.htm" />
+  <HelpKINode Title="EditorCommands.Edit property" Url="html/3f7c0237-3c1c-2340-3e57-11c57466e4df.htm" />
+  <HelpKINode Title="EditorCommands.ExpandAll property" Url="html/b8087e6c-68cf-bea5-cf27-a9ce155337ec.htm" />
+  <HelpKINode Title="EditorCommands.ExpandCurrent property" Url="html/c2dce35c-be4e-55b2-8f3d-88eea1d90245.htm" />
+  <HelpKINode Title="EditorCommands.MoveDown property" Url="html/3eac89c9-b89a-5a9a-4a06-b6969c06c1d3.htm" />
+  <HelpKINode Title="EditorCommands.MoveUp property" Url="html/ff6eb217-ceff-35d0-3493-35a6cfe0d7ff.htm" />
+  <HelpKINode Title="EditorCommands.PasteAsChild property" Url="html/c45f9450-41dc-f87f-81ef-def729fc6f5a.htm" />
+  <HelpKINode Title="EditorCommands.Sort property" Url="html/365568c4-c032-5eb6-1ada-0fcb8153aa75.htm" />
+  <HelpKINode Title="EntityReferencesControl class">
+    <HelpKINode Title="EntityReferencesControl Class" Url="html/e6bfbd16-e065-c24f-64ad-19cf68491351.htm" />
+    <HelpKINode Title="about EntityReferencesControl class" Url="html/e6bfbd16-e065-c24f-64ad-19cf68491351.htm" />
+    <HelpKINode Title="constructor" Url="html/cb89eed2-c52a-0f1a-cf0c-dd82f8473634.htm" />
+    <HelpKINode Title="events" Url="html/379a4586-1bc3-cdcf-1871-47bfd1ea564f.htm" />
+    <HelpKINode Title="fields" Url="html/d85b22fc-6748-ea13-da02-c83ab5f25713.htm" />
+    <HelpKINode Title="methods" Url="html/046cf430-8a5e-9bfb-be73-076f544a9e55.htm" />
+    <HelpKINode Title="properties" Url="html/24a23b81-d064-7522-cfcf-5813f4215e9b.htm" />
+  </HelpKINode>
+  <HelpKINode Title="EntityReferencesControl.AllowAnimatedGif property" Url="html/21401182-05b8-b28e-ec06-1b476330c278.htm" />
+  <HelpKINode Title="EntityReferencesControl.CurrentProject property" Url="html/7f0f4bbe-ed9e-8d06-5405-7c299c8b1c6a.htm" />
+  <HelpKINode Title="EntityReferencesControl.EntityReferencesControl constructor" Url="html/cb89eed2-c52a-0f1a-cf0c-dd82f8473634.htm" />
+  <HelpKINode Title="EntityReferencesControl.FileContentNeeded event" Url="html/56a846f8-5284-b8b8-5706-5533e3626631.htm" />
+  <HelpKINode Title="EntityReferencesControl.FileContentNeededEvent field" Url="html/f58ae138-fabb-1ac2-6b63-76c85e5bde3d.htm" />
+  <HelpKINode Title="EntityReferencesControl.InitializeComponent method" Url="html/8e71c168-d296-6d11-afae-728328109d38.htm" />
+  <HelpKINode Title="ExpandAll property" Url="html/b8087e6c-68cf-bea5-cf27-a9ce155337ec.htm" />
+  <HelpKINode Title="ExpandCurrent property" Url="html/c2dce35c-be4e-55b2-8f3d-88eea1d90245.htm" />
+  <HelpKINode Title="FileContentNeeded event">
+    <HelpKINode Title="EntityReferencesControl.FileContentNeeded Event" Url="html/56a846f8-5284-b8b8-5706-5533e3626631.htm" />
+    <HelpKINode Title="TopicPreviewerControl.FileContentNeeded Event" Url="html/25da1348-668e-525c-ee5b-06d995accff8.htm" />
+  </HelpKINode>
+  <HelpKINode Title="FileContentNeededEvent field">
+    <HelpKINode Title="EntityReferencesControl.FileContentNeededEvent Field" Url="html/f58ae138-fabb-1ac2-6b63-76c85e5bde3d.htm" />
+    <HelpKINode Title="TopicPreviewerControl.FileContentNeededEvent Field" Url="html/e8d7816f-5c0d-9d85-a46a-a744f0fada67.htm" />
+  </HelpKINode>
+  <HelpKINode Title="FileContentNeededEventArgs class">
+    <HelpKINode Title="FileContentNeededEventArgs Class" Url="html/59fabe8e-409b-8c99-331c-59db5e0fd294.htm" />
+    <HelpKINode Title="about FileContentNeededEventArgs class" Url="html/59fabe8e-409b-8c99-331c-59db5e0fd294.htm" />
+    <HelpKINode Title="constructor" Url="html/d2d86fc2-c953-2e89-5f8d-b25be6fb18c3.htm" />
+    <HelpKINode Title="methods" Url="html/6aec85e2-3954-0d7e-39d7-5e12f9b7e585.htm" />
+    <HelpKINode Title="properties" Url="html/51bbd095-291e-0eca-b3cd-648c05908b10.htm" />
+  </HelpKINode>
+  <HelpKINode Title="FileContentNeededEventArgs.ContentLayoutFiles property" Url="html/83064116-6ed3-c3aa-0f36-65ad3b307ffb.htm" />
+  <HelpKINode Title="FileContentNeededEventArgs.FileContentNeededEventArgs constructor" Url="html/d2d86fc2-c953-2e89-5f8d-b25be6fb18c3.htm" />
+  <HelpKINode Title="FileContentNeededEventArgs.SiteMapFiles property" Url="html/6eefe025-ca75-6251-20b5-4c3418f29a85.htm" />
+  <HelpKINode Title="FileContentNeededEventArgs.TokenFiles property" Url="html/764f28df-ccfa-f902-ab51-6ed380e37d6a.htm" />
+  <HelpKINode Title="Find(Of T) method" Url="html/889eedb2-8ed8-8542-376e-40122409b5d7.htm" />
+  <HelpKINode Title="Find&lt;T&gt; method" Url="html/889eedb2-8ed8-8542-376e-40122409b5d7.htm" />
+  <HelpKINode Title="FindAndDisplay method" Url="html/572b2139-b42a-94c6-128a-f93dd9dea072.htm" />
+  <HelpKINode Title="FindByName method" Url="html/d3218ef8-30df-65e5-4ff9-11861bbb9136.htm" />
+  <HelpKINode Title="Flatten method" Url="html/6fd4ca56-0fdc-94d9-5793-4ee3b34aaba6.htm" />
+  <HelpKINode Title="GeneratedInternalTypeHelper class">
+    <HelpKINode Title="GeneratedInternalTypeHelper Class" Url="html/55cad188-76ae-4170-e16c-99dd7b48db5f.htm" />
+    <HelpKINode Title="about GeneratedInternalTypeHelper class" Url="html/55cad188-76ae-4170-e16c-99dd7b48db5f.htm" />
+    <HelpKINode Title="constructor" Url="html/8b8b175e-3043-79cf-8ba0-588df41d0b04.htm" />
+    <HelpKINode Title="methods" Url="html/a04b6924-91d1-864e-2274-8ccd6e864414.htm" />
+  </HelpKINode>
+  <HelpKINode Title="GeneratedInternalTypeHelper.GeneratedInternalTypeHelper constructor" Url="html/8b8b175e-3043-79cf-8ba0-588df41d0b04.htm" />
+  <HelpKINode Title="GetIsBroughtIntoViewWhenSelected method" Url="html/a81c3dc7-f89d-3c62-7fa4-2177bf83dcc3.htm" />
+  <HelpKINode Title="GetSupportAnimatedGif method" Url="html/653424c4-3aca-9032-76a6-07d630fae8a2.htm" />
+  <HelpKINode Title="GlossaryDefinition field" Url="html/94c466e2-d2e8-33b5-0d5c-468845368c7a.htm" />
+  <HelpKINode Title="GlossaryDivisionTitle field" Url="html/389179d1-57a6-5a6a-0dd3-7bcbb4ac8c3b.htm" />
+  <HelpKINode Title="GlossaryLetterBar field" Url="html/69b7b72c-b24c-ac93-849c-35fe3f783aaf.htm" />
+  <HelpKINode Title="GlossaryLetterTitle field" Url="html/4a8b460e-80c9-6161-db1d-f1eb303076ea.htm" />
+  <HelpKINode Title="Image property">
+    <HelpKINode Title="DropDownButton.Image Property " Url="html/1cdf4ca4-74d5-e382-173d-d41e965386ad.htm" />
+    <HelpKINode Title="SplitButton.Image Property " Url="html/3cfdabc8-95a5-59b8-e101-05ec1d2bb53c.htm" />
+  </HelpKINode>
+  <HelpKINode Title="ImageProperty field">
+    <HelpKINode Title="DropDownButton.ImageProperty Field" Url="html/6c16eefb-c448-e08e-dfc7-e766610d4708.htm" />
+    <HelpKINode Title="SplitButton.ImageProperty Field" Url="html/72e2603b-90b0-67dc-7a00-83a360ae492f.htm" />
+  </HelpKINode>
+  <HelpKINode Title="ImportedCodeBasePath property" Url="html/cfb9fa99-0b1a-d208-4a78-b8c4480e391d.htm" />
+  <HelpKINode Title="InitializeComponent method">
+    <HelpKINode Title="BuildLogViewerControl.InitializeComponent Method " Url="html/7e68f7db-6e3d-0558-cff7-033af5397de9.htm" />
+    <HelpKINode Title="ContentLayoutEditorControl.InitializeComponent Method " Url="html/e72ad36c-0204-9bed-b082-6a6a371f4cd5.htm" />
+    <HelpKINode Title="EntityReferencesControl.InitializeComponent Method " Url="html/8e71c168-d296-6d11-afae-728328109d38.htm" />
+    <HelpKINode Title="ResourceItemEditorControl.InitializeComponent Method " Url="html/9f8e8073-db3f-446f-cb5c-a56280c739fc.htm" />
+    <HelpKINode Title="SiteMapEditorControl.InitializeComponent Method " Url="html/8ebfb0ab-d27f-b42c-abdf-f94c4d4e910d.htm" />
+    <HelpKINode Title="TokenEditorControl.InitializeComponent Method " Url="html/d7216819-e7f3-8437-585a-5900d0409d80.htm" />
+    <HelpKINode Title="TopicPreviewerControl.InitializeComponent Method " Url="html/3fbfed2b-39fe-264d-a86f-293bba4652d7.htm" />
+  </HelpKINode>
+  <HelpKINode Title="Instance property" Url="html/61aca11d-b14c-80a5-519e-1e07ca09bedd.htm" />
+  <HelpKINode Title="IsBroughtIntoViewWhenSelected attached property" Url="html/6ab1ee44-d0ef-4062-0acd-14c4202e88f1.htm" />
+  <HelpKINode Title="IsBroughtIntoViewWhenSelectedProperty field" Url="html/aba7a271-2de6-2d2e-97e3-87925421d94f.htm" />
+  <HelpKINode Title="ItemBorderColor property" Url="html/b53c8f48-1641-025f-6bb4-6a8b173ae7fb.htm" />
+  <HelpKINode Title="ItemColor property" Url="html/1035558f-6ba6-14e3-8002-a77740fd35db.htm" />
+  <HelpKINode Title="ItemHoverBorderColor property" Url="html/666d3405-e801-aa51-9d03-a1d9d7d18d6c.htm" />
+  <HelpKINode Title="ItemHoverColor property" Url="html/ac23f9f7-869e-4d72-e5fe-a03b80953f9c.htm" />
+  <HelpKINode Title="ItemHoverTextColor property" Url="html/1d3c0043-68aa-8174-d64e-eaff9f29f995.htm" />
+  <HelpKINode Title="ItemSelectedBorderColor property" Url="html/746bd166-b3ef-78d2-d156-964a2e63661b.htm" />
+  <HelpKINode Title="ItemSelectedBorderNotFocusedColor property" Url="html/04fc0c76-27c1-3f2f-5c33-425185aa6c6c.htm" />
+  <HelpKINode Title="ItemSelectedColor property" Url="html/1554791e-126d-0881-0247-faff529ca70e.htm" />
+  <HelpKINode Title="ItemSelectedNotFocusedColor property" Url="html/89ce9872-a243-b8d1-8c08-0cebe255f9cd.htm" />
+  <HelpKINode Title="ItemSelectedTextColor property" Url="html/23d9a28d-c6de-22b6-99be-22655e10b1cd.htm" />
+  <HelpKINode Title="ItemSelectedTextNotFocusedColor property" Url="html/828d59ae-d629-9e88-3a33-7359c991806a.htm" />
+  <HelpKINode Title="ItemTextColor property" Url="html/a0cafee8-0652-7d80-7b67-c95840e344ba.htm" />
+  <HelpKINode Title="LightBorderColor property" Url="html/3016b650-5958-32a8-02c5-1e50b2865590.htm" />
+  <HelpKINode Title="LinkTextColor property" Url="html/42671a02-9ef2-934a-882b-84bf61d16360.htm" />
+  <HelpKINode Title="LinkTextHoverColor property" Url="html/e497a49c-b50e-efa0-bba9-424a97c500c7.htm" />
+  <HelpKINode Title="Literal field" Url="html/797ef6ac-b1e3-4569-c6c2-7066108559b7.htm" />
+  <HelpKINode Title="LoadContentLayoutFile method" Url="html/6282947b-a972-3892-ed41-2690a66cdfe9.htm" />
+  <HelpKINode Title="LoadResourceItemsFile method" Url="html/bbf57917-5ea5-5bbe-b14a-d94a50a59f78.htm" />
+  <HelpKINode Title="LoadSiteMapFile method" Url="html/6f7d9263-dc9e-ac2a-b6d1-63e5d11221b5.htm" />
+  <HelpKINode Title="LoadTokenFile method" Url="html/d32064a5-d67d-5070-f661-782e0d1c3e73.htm" />
+  <HelpKINode Title="LogFilename property" Url="html/08fa3ce4-3333-ac16-edb6-56c419114fb5.htm" />
+  <HelpKINode Title="MainButtonCommand property" Url="html/32d51e7a-4fb0-5e1f-7117-3ef1ed4a2925.htm" />
+  <HelpKINode Title="MainButtonCommandParameter property" Url="html/a997b784-bc86-9af3-8df5-ea322d58eb66.htm" />
+  <HelpKINode Title="MainButtonCommandParameterProperty field" Url="html/62d22d3a-1a32-38b6-33d0-0e5a021b7237.htm" />
+  <HelpKINode Title="MainButtonCommandProperty field" Url="html/0cfb7c9c-fe7a-fd21-10a4-3d34900aec27.htm" />
+  <HelpKINode Title="MainButtonCommandTarget property" Url="html/2069d915-f8d4-e9a0-c23f-896cd72faf65.htm" />
+  <HelpKINode Title="MainButtonCommandTargetProperty field" Url="html/747885a8-5764-f9fe-f122-20b7d97b02b0.htm" />
+  <HelpKINode Title="MamlToFlowDocumentConverter class">
+    <HelpKINode Title="MamlToFlowDocumentConverter Class" Url="html/7c8e055a-8b45-b2bd-2d6f-fb41b46ee081.htm" />
+    <HelpKINode Title="about MamlToFlowDocumentConverter class" Url="html/7c8e055a-8b45-b2bd-2d6f-fb41b46ee081.htm" />
+    <HelpKINode Title="constructor" Url="html/c54b3aec-9570-2edc-0ccc-60236cc73d20.htm" />
+    <HelpKINode Title="methods" Url="html/8f9d0c4a-87c2-d720-c5f1-47344a079ad9.htm" />
+    <HelpKINode Title="properties" Url="html/78ec98f0-0953-88f0-51f5-b1d01eb1c735.htm" />
+  </HelpKINode>
+  <HelpKINode Title="MamlToFlowDocumentConverter.AlertIcons property" Url="html/f2aae77f-c447-23b4-a691-f8f854598e8d.htm" />
+  <HelpKINode Title="MamlToFlowDocumentConverter.AlertTitles property" Url="html/0ceac954-4f58-a1da-bc0e-b1be915d393a.htm" />
+  <HelpKINode Title="MamlToFlowDocumentConverter.CodeColorizer property" Url="html/e6b00c90-97d7-c99e-1cc3-03e2051ff80e.htm" />
+  <HelpKINode Title="MamlToFlowDocumentConverter.ColorizerFlowDocumentTemplate property" Url="html/92862633-126c-6cfe-0ea9-a4f9676d4eb9.htm" />
+  <HelpKINode Title="MamlToFlowDocumentConverter.ImportedCodeBasePath property" Url="html/cfb9fa99-0b1a-d208-4a78-b8c4480e391d.htm" />
+  <HelpKINode Title="MamlToFlowDocumentConverter.MamlToFlowDocumentConverter constructor" Url="html/c54b3aec-9570-2edc-0ccc-60236cc73d20.htm" />
+  <HelpKINode Title="MamlToFlowDocumentConverter.MediaFiles property" Url="html/23fe4bae-9aed-07ea-edf9-86a7ad36b956.htm" />
+  <HelpKINode Title="MamlToFlowDocumentConverter.NamedSectionTitles property" Url="html/9686a516-1085-bd24-409b-ae962d4750cf.htm" />
+  <HelpKINode Title="MamlToFlowDocumentConverter.ToElementName method" Url="html/d3248ce1-5e97-0a94-cedd-9c6da47c2e2b.htm" />
+  <HelpKINode Title="MamlToFlowDocumentConverter.ToFlowDocument method" Url="html/37690c57-e1b0-f84e-f209-df40430fb532.htm" />
+  <HelpKINode Title="MamlToFlowDocumentConverter.Tokens property" Url="html/122f4c40-6322-e7f6-73da-d734eda52d9c.htm" />
+  <HelpKINode Title="MamlToFlowDocumentConverter.TopicTitles property" Url="html/5c423c57-3b59-6b21-7ca0-b5322118b690.htm" />
+  <HelpKINode Title="Math field" Url="html/afb92584-cd66-d7d1-ed3a-2ccb2acb0915.htm" />
+  <HelpKINode Title="MediaFiles property" Url="html/23fe4bae-9aed-07ea-edf9-86a7ad36b956.htm" />
+  <HelpKINode Title="MenuBackgroundColor property" Url="html/ed1a7a76-2eb0-dc2f-ee1b-8615c7088a89.htm" />
+  <HelpKINode Title="MenuBorderColor property" Url="html/fa9ff81e-18c2-40b6-0416-3504eeff9dc7.htm" />
+  <HelpKINode Title="MenuHoverBackgroundColor property" Url="html/36b3da89-8def-9fb7-b7aa-4c7f1a46f6ba.htm" />
+  <HelpKINode Title="MenuHoverTextColor property" Url="html/2957cdf2-a743-4dd6-6a2b-a013e2fdee76.htm" />
+  <HelpKINode Title="MenuSeparatorColor property" Url="html/3cafe49b-fc5a-6cd6-c40a-42b9fc533596.htm" />
+  <HelpKINode Title="MenuTextColor property" Url="html/30a3a27e-bb07-314e-f120-05371642327c.htm" />
+  <HelpKINode Title="MoveDown property" Url="html/3eac89c9-b89a-5a9a-4a06-b6969c06c1d3.htm" />
+  <HelpKINode Title="MoveUp property" Url="html/ff6eb217-ceff-35d0-3493-35a6cfe0d7ff.htm" />
+  <HelpKINode Title="NamedSectionTitles property" Url="html/9686a516-1085-bd24-409b-ae962d4750cf.htm" />
+  <HelpKINode Title="NamedStyle class">
+    <HelpKINode Title="NamedStyle Class" Url="html/03c8a213-541f-8c63-8463-706f12189c92.htm" />
+    <HelpKINode Title="about NamedStyle class" Url="html/03c8a213-541f-8c63-8463-706f12189c92.htm" />
+    <HelpKINode Title="fields" Url="html/160016a5-fbec-a57f-8abe-261be79397ef.htm" />
+  </HelpKINode>
+  <HelpKINode Title="NamedStyle.AlertBody field" Url="html/a8e842fb-fb5c-c2bc-8fa3-bc4d03f122eb.htm" />
+  <HelpKINode Title="NamedStyle.AlertTitle field" Url="html/12fc3abb-079d-311c-db87-982536e36cfd.htm" />
+  <HelpKINode Title="NamedStyle.CodeBlock field" Url="html/9a35171f-42b9-f5c6-6cf7-0ab0e7aa32f2.htm" />
+  <HelpKINode Title="NamedStyle.CodeInline field" Url="html/b8d8eac8-9e26-36f6-f877-6de6d99c7af0.htm" />
+  <HelpKINode Title="NamedStyle.DefinedTerm field" Url="html/a2d82924-7ed6-3721-4e1b-8fd480f9b741.htm" />
+  <HelpKINode Title="NamedStyle.Definition field" Url="html/4fb950e2-d7b7-2391-d43e-df8371ba4de3.htm" />
+  <HelpKINode Title="NamedStyle.GlossaryDefinition field" Url="html/94c466e2-d2e8-33b5-0d5c-468845368c7a.htm" />
+  <HelpKINode Title="NamedStyle.GlossaryDivisionTitle field" Url="html/389179d1-57a6-5a6a-0dd3-7bcbb4ac8c3b.htm" />
+  <HelpKINode Title="NamedStyle.GlossaryLetterBar field" Url="html/69b7b72c-b24c-ac93-849c-35fe3f783aaf.htm" />
+  <HelpKINode Title="NamedStyle.GlossaryLetterTitle field" Url="html/4a8b460e-80c9-6161-db1d-f1eb303076ea.htm" />
+  <HelpKINode Title="NamedStyle.Literal field" Url="html/797ef6ac-b1e3-4569-c6c2-7066108559b7.htm" />
+  <HelpKINode Title="NamedStyle.Math field" Url="html/afb92584-cd66-d7d1-ed3a-2ccb2acb0915.htm" />
+  <HelpKINode Title="NamedStyle.NoMargin field" Url="html/fdb87fbc-d81c-9ac8-d540-12c2ae0f6f7c.htm" />
+  <HelpKINode Title="NamedStyle.NoTopMargin field" Url="html/8a9bd1cb-e455-aa26-ab05-b3b7deb75686.htm" />
+  <HelpKINode Title="NamedStyle.Quote field" Url="html/0f608769-963c-e4cc-27c0-3e29829a691c.htm" />
+  <HelpKINode Title="NamedStyle.RelatedTopicTitle field" Url="html/3d99c9aa-327b-507b-7ea8-666c8d266888.htm" />
+  <HelpKINode Title="NamedStyle.TableHeaderRow field" Url="html/81b92c71-694a-0539-ca13-d5ab4968e228.htm" />
+  <HelpKINode Title="NamedStyle.TableTitle field" Url="html/89ea82e0-dc40-3a64-935d-b61f5650e988.htm" />
+  <HelpKINode Title="NamedStyle.Title field" Url="html/1b4699eb-4e2f-8a3e-99ff-99bae56ae940.htm" />
+  <HelpKINode Title="NoMargin field" Url="html/fdb87fbc-d81c-9ac8-d540-12c2ae0f6f7c.htm" />
+  <HelpKINode Title="NotificationColor property" Url="html/8d22fe60-f943-c74b-3041-402be375fe3b.htm" />
+  <HelpKINode Title="NotificationTextColor property" Url="html/f81ef063-81ea-516b-3352-2483d16c51a4.htm" />
+  <HelpKINode Title="NoTopMargin field" Url="html/8a9bd1cb-e455-aa26-ab05-b3b7deb75686.htm" />
+  <HelpKINode Title="OnApplyTemplate method" Url="html/60ebcbb5-5490-47bb-0cd6-add13cc41217.htm" />
+  <HelpKINode Title="OnClick method">
+    <HelpKINode Title="DropDownButton.OnClick Method " Url="html/79ac36cf-7b11-a262-25c0-3e4e3ca728f0.htm" />
+    <HelpKINode Title="SplitButton.OnClick Method " Url="html/3cc36b2b-f8e6-e4f1-078f-4dc70c1742c6.htm" />
+  </HelpKINode>
+  <HelpKINode Title="OnPropertyChanged method">
+    <HelpKINode Title="DropDownButton.OnPropertyChanged Method " Url="html/df82db52-8149-0443-0692-3f0c19d98edd.htm" />
+    <HelpKINode Title="SplitButton.OnPropertyChanged Method " Url="html/b3130ed2-4108-6fd0-b4e1-6ad522d0bcae.htm" />
+  </HelpKINode>
+  <HelpKINode Title="ParentElementOfType(Of T) method" Url="html/ed963e74-25d1-b06c-d9fc-a43ad4ea2dc9.htm" />
+  <HelpKINode Title="ParentElementOfType&lt;T&gt; method" Url="html/ed963e74-25d1-b06c-d9fc-a43ad4ea2dc9.htm" />
+  <HelpKINode Title="PasteAsChild property" Url="html/c45f9450-41dc-f87f-81ef-def729fc6f5a.htm" />
+  <HelpKINode Title="ProjectCommands class">
+    <HelpKINode Title="ProjectCommands Class" Url="html/91848d27-5e03-6e91-4f5c-3773365618f0.htm" />
+    <HelpKINode Title="about ProjectCommands class" Url="html/91848d27-5e03-6e91-4f5c-3773365618f0.htm" />
+    <HelpKINode Title="properties" Url="html/c46aca1a-fbef-987f-a463-1136b94dbeea.htm" />
+  </HelpKINode>
+  <HelpKINode Title="ProjectCommands.AddAllFromFolder property" Url="html/bb3e11c2-9ad7-560a-b789-40680782408c.htm" />
+  <HelpKINode Title="ProjectCommands.AddExistingFile property" Url="html/ab6b77de-5a30-6db1-1db1-969f4cbc7edc.htm" />
+  <HelpKINode Title="ProjectCommands.AddFromTemplate property" Url="html/ce571b9a-54c0-0286-28d8-9cc09f13e7bd.htm" />
+  <HelpKINode Title="PropertyChanged event" Url="html/edd24f29-2084-a8ce-1242-2630c33ec314.htm" />
+  <HelpKINode Title="Quote field" Url="html/0f608769-963c-e4cc-27c0-3e29829a691c.htm" />
+  <HelpKINode Title="Refresh method" Url="html/61e503d4-fa60-7e7d-09d2-25e2d6879e07.htm" />
+  <HelpKINode Title="RelatedTopicTitle field" Url="html/3d99c9aa-327b-507b-7ea8-666c8d266888.htm" />
+  <HelpKINode Title="ResourceItemEditorControl class">
+    <HelpKINode Title="ResourceItemEditorControl Class" Url="html/d9e213da-9ce2-206f-5eff-191c214e7f41.htm" />
+    <HelpKINode Title="about ResourceItemEditorControl class" Url="html/d9e213da-9ce2-206f-5eff-191c214e7f41.htm" />
+    <HelpKINode Title="constructor" Url="html/c90411f6-8db9-6d75-e272-27f987189253.htm" />
+    <HelpKINode Title="events" Url="html/1ea58faa-a9a9-c050-5fa5-1eb64818d66e.htm" />
+    <HelpKINode Title="fields" Url="html/6dbc95cb-72a1-c287-aa77-66f34cfa2dfa.htm" />
+    <HelpKINode Title="methods" Url="html/8c51b709-7713-46d1-8365-651e4299c268.htm" />
+    <HelpKINode Title="properties" Url="html/c45d1525-b55f-d11c-b333-c33a911500fa.htm" />
+  </HelpKINode>
+  <HelpKINode Title="ResourceItemEditorControl.ContentModified event" Url="html/d1d207a5-8a6b-823e-3319-a420526ff8d3.htm" />
+  <HelpKINode Title="ResourceItemEditorControl.ContentModifiedEvent field" Url="html/aa94a0bf-a405-5d90-4d17-5c935d779f8c.htm" />
+  <HelpKINode Title="ResourceItemEditorControl.InitializeComponent method" Url="html/9f8e8073-db3f-446f-cb5c-a56280c739fc.htm" />
+  <HelpKINode Title="ResourceItemEditorControl.LoadResourceItemsFile method" Url="html/bbf57917-5ea5-5bbe-b14a-d94a50a59f78.htm" />
+  <HelpKINode Title="ResourceItemEditorControl.ResourceItemEditorControl constructor" Url="html/c90411f6-8db9-6d75-e272-27f987189253.htm" />
+  <HelpKINode Title="ResourceItemEditorControl.Save method" Url="html/bcac63a8-bfd7-1d02-525e-54e812fa1ab1.htm" />
+  <HelpKINode Title="SandcastleBuilder.WPF namespace" Url="html/cf740ada-2121-d6d0-e836-11534541acbd.htm" />
+  <HelpKINode Title="SandcastleBuilder.WPF.Behaviors namespace" Url="html/8ac791b1-2541-3451-4215-6a98f141b715.htm" />
+  <HelpKINode Title="SandcastleBuilder.WPF.Behaviors.SupportAnimatedGIFBehavior class" Url="html/09b89744-2d45-b9c6-fe29-da5152fb13a6.htm" />
+  <HelpKINode Title="SandcastleBuilder.WPF.Behaviors.TreeViewItemBehavior class" Url="html/0c6fce32-df3b-de16-ff6f-19e43ed8bef8.htm" />
+  <HelpKINode Title="SandcastleBuilder.WPF.Commands namespace" Url="html/c02822d3-bddc-aca5-fccc-78334053e01a.htm" />
+  <HelpKINode Title="SandcastleBuilder.WPF.Commands.EditorCommands class" Url="html/8959de4e-b25b-3fbd-0ac4-e2ea0fb1a1fc.htm" />
+  <HelpKINode Title="SandcastleBuilder.WPF.Commands.ProjectCommands class" Url="html/91848d27-5e03-6e91-4f5c-3773365618f0.htm" />
+  <HelpKINode Title="SandcastleBuilder.WPF.ControlExtensions class" Url="html/0d3ccd17-b90e-f374-e65b-683dd294820e.htm" />
+  <HelpKINode Title="SandcastleBuilder.WPF.Controls namespace" Url="html/dcd354f8-a02d-0721-a84c-34f78ea0239d.htm" />
+  <HelpKINode Title="SandcastleBuilder.WPF.Controls.DropDownButton class" Url="html/20034471-923c-70f5-d8e8-4454f91c76dc.htm" />
+  <HelpKINode Title="SandcastleBuilder.WPF.Controls.SplitButton class" Url="html/04d20c50-5b8d-0d27-a680-b1f5035e6ae7.htm" />
+  <HelpKINode Title="SandcastleBuilder.WPF.Maml namespace" Url="html/8fc9dc76-9def-c113-8779-ebf2202d82bd.htm" />
+  <HelpKINode Title="SandcastleBuilder.WPF.Maml.MamlToFlowDocumentConverter class" Url="html/7c8e055a-8b45-b2bd-2d6f-fb41b46ee081.htm" />
+  <HelpKINode Title="SandcastleBuilder.WPF.Maml.NamedStyle class" Url="html/03c8a213-541f-8c63-8463-706f12189c92.htm" />
+  <HelpKINode Title="SandcastleBuilder.WPF.Theme namespace" Url="html/079aba53-7f8b-25d5-ddf2-accd8f3fc22a.htm" />
+  <HelpKINode Title="SandcastleBuilder.WPF.Theme.ThemeColors class" Url="html/4b3fd698-fdd0-5b16-9ae9-a88a76755d99.htm" />
+  <HelpKINode Title="SandcastleBuilder.WPF.UserControls namespace" Url="html/e01f2c15-13b2-e6d5-9f46-cfddd45965b9.htm" />
+  <HelpKINode Title="SandcastleBuilder.WPF.UserControls.BuildLogViewerControl class" Url="html/73eeca4f-5f19-b7bd-7ae1-49eb3278725e.htm" />
+  <HelpKINode Title="SandcastleBuilder.WPF.UserControls.ContentLayoutEditorControl class" Url="html/80c2781c-7713-b923-8d49-4f7375e0da7a.htm" />
+  <HelpKINode Title="SandcastleBuilder.WPF.UserControls.EntityReferencesControl class" Url="html/e6bfbd16-e065-c24f-64ad-19cf68491351.htm" />
+  <HelpKINode Title="SandcastleBuilder.WPF.UserControls.FileContentNeededEventArgs class" Url="html/59fabe8e-409b-8c99-331c-59db5e0fd294.htm" />
+  <HelpKINode Title="SandcastleBuilder.WPF.UserControls.ResourceItemEditorControl class" Url="html/d9e213da-9ce2-206f-5eff-191c214e7f41.htm" />
+  <HelpKINode Title="SandcastleBuilder.WPF.UserControls.SiteMapEditorControl class" Url="html/43037e2a-0e8d-73a0-fbe4-860a72c4595a.htm" />
+  <HelpKINode Title="SandcastleBuilder.WPF.UserControls.TokenEditorControl class" Url="html/e3948ccc-f6d7-2ab3-f414-1f6708d3f932.htm" />
+  <HelpKINode Title="SandcastleBuilder.WPF.UserControls.TopicContentNeededEventArgs class" Url="html/ad3d01b5-c7de-becd-feaa-12648ed52adf.htm" />
+  <HelpKINode Title="SandcastleBuilder.WPF.UserControls.TopicPreviewerControl class" Url="html/45ecd7aa-10f6-0981-3afd-06128981652b.htm" />
+  <HelpKINode Title="Save method" Url="html/bcac63a8-bfd7-1d02-525e-54e812fa1ab1.htm" />
+  <HelpKINode Title="SetIsBroughtIntoViewWhenSelected method" Url="html/75478b1c-c184-a401-6150-8e069fa6d63d.htm" />
+  <HelpKINode Title="SetSupportAnimatedGif method" Url="html/b05d15b6-0e7b-1383-2937-8dac5810cb9c.htm" />
+  <HelpKINode Title="SiteMapEditorControl class">
+    <HelpKINode Title="SiteMapEditorControl Class" Url="html/43037e2a-0e8d-73a0-fbe4-860a72c4595a.htm" />
+    <HelpKINode Title="about SiteMapEditorControl class" Url="html/43037e2a-0e8d-73a0-fbe4-860a72c4595a.htm" />
+    <HelpKINode Title="constructor" Url="html/b0b32e57-0e6c-413d-ec97-dacf0db81eba.htm" />
+    <HelpKINode Title="events" Url="html/554c2497-df7d-dcb5-0304-f8a430e0fca6.htm" />
+    <HelpKINode Title="fields" Url="html/b810ef8b-3142-86af-a588-7bb5abc963cd.htm" />
+    <HelpKINode Title="methods" Url="html/3aecad4f-b5a8-ed6c-c331-c7614a291834.htm" />
+    <HelpKINode Title="properties" Url="html/37363ca8-962a-a3f4-116c-64a80da2b9de.htm" />
+  </HelpKINode>
+  <HelpKINode Title="SiteMapEditorControl.AssociateTopic event" Url="html/e29b1c25-61db-0df2-0e56-ee3d63d57237.htm" />
+  <HelpKINode Title="SiteMapEditorControl.AssociateTopicEvent field" Url="html/d42f481f-2638-b578-8ed1-41fdcea4fca2.htm" />
+  <HelpKINode Title="SiteMapEditorControl.ContentModified event" Url="html/86c41abe-0068-a1eb-fb48-4502a4b65d33.htm" />
+  <HelpKINode Title="SiteMapEditorControl.ContentModifiedEvent field" Url="html/07fda56f-60dd-b15e-a00a-edefd4576085.htm" />
+  <HelpKINode Title="SiteMapEditorControl.CurrentTopic property" Url="html/c3380876-fe7a-5538-435f-e2e961bd1764.htm" />
+  <HelpKINode Title="SiteMapEditorControl.InitializeComponent method" Url="html/8ebfb0ab-d27f-b42c-abdf-f94c4d4e910d.htm" />
+  <HelpKINode Title="SiteMapEditorControl.LoadSiteMapFile method" Url="html/6f7d9263-dc9e-ac2a-b6d1-63e5d11221b5.htm" />
+  <HelpKINode Title="SiteMapEditorControl.SiteMapEditorControl constructor" Url="html/b0b32e57-0e6c-413d-ec97-dacf0db81eba.htm" />
+  <HelpKINode Title="SiteMapEditorControl.Topics property" Url="html/9cd2b108-b2ec-7c8c-6ea1-808befa4b1c9.htm" />
+  <HelpKINode Title="SiteMapFiles property" Url="html/6eefe025-ca75-6251-20b5-4c3418f29a85.htm" />
+  <HelpKINode Title="Sort property" Url="html/365568c4-c032-5eb6-1ada-0fcb8153aa75.htm" />
+  <HelpKINode Title="SplitButton class">
+    <HelpKINode Title="SplitButton Class" Url="html/04d20c50-5b8d-0d27-a680-b1f5035e6ae7.htm" />
+    <HelpKINode Title="about SplitButton class" Url="html/04d20c50-5b8d-0d27-a680-b1f5035e6ae7.htm" />
+    <HelpKINode Title="constructor" Url="html/a19cddfd-0126-e38d-65c5-92b20c9cea71.htm" />
+    <HelpKINode Title="events" Url="html/c2846d26-5226-cf82-a9f1-e213c3d3cadc.htm" />
+    <HelpKINode Title="fields" Url="html/e9404be3-774f-fcb2-d9ea-e1a639c38cb7.htm" />
+    <HelpKINode Title="methods" Url="html/20f49377-8c3a-b7ee-0fb4-8954245a2676.htm" />
+    <HelpKINode Title="properties" Url="html/5d2ec0db-82e4-2d52-8c00-e4cbb71a406c.htm" />
+  </HelpKINode>
+  <HelpKINode Title="SplitButton.DropDownButtonCommand property" Url="html/ac8205ea-307b-59fa-bb91-65d00b35ef4e.htm" />
+  <HelpKINode Title="SplitButton.DropDownButtonCommandProperty field" Url="html/9b9fae72-9509-70db-21b7-6a2345eae914.htm" />
+  <HelpKINode Title="SplitButton.DropDownContextMenu property" Url="html/b2c38648-c194-57ca-74da-955b883fe501.htm" />
+  <HelpKINode Title="SplitButton.DropDownContextMenuProperty field" Url="html/e2750386-ed21-a502-8371-0fa8897e19f2.htm" />
+  <HelpKINode Title="SplitButton.Image property" Url="html/3cfdabc8-95a5-59b8-e101-05ec1d2bb53c.htm" />
+  <HelpKINode Title="SplitButton.ImageProperty field" Url="html/72e2603b-90b0-67dc-7a00-83a360ae492f.htm" />
+  <HelpKINode Title="SplitButton.MainButtonCommand property" Url="html/32d51e7a-4fb0-5e1f-7117-3ef1ed4a2925.htm" />
+  <HelpKINode Title="SplitButton.MainButtonCommandParameter property" Url="html/a997b784-bc86-9af3-8df5-ea322d58eb66.htm" />
+  <HelpKINode Title="SplitButton.MainButtonCommandParameterProperty field" Url="html/62d22d3a-1a32-38b6-33d0-0e5a021b7237.htm" />
+  <HelpKINode Title="SplitButton.MainButtonCommandProperty field" Url="html/0cfb7c9c-fe7a-fd21-10a4-3d34900aec27.htm" />
+  <HelpKINode Title="SplitButton.MainButtonCommandTarget property" Url="html/2069d915-f8d4-e9a0-c23f-896cd72faf65.htm" />
+  <HelpKINode Title="SplitButton.MainButtonCommandTargetProperty field" Url="html/747885a8-5764-f9fe-f122-20b7d97b02b0.htm" />
+  <HelpKINode Title="SplitButton.OnApplyTemplate method" Url="html/60ebcbb5-5490-47bb-0cd6-add13cc41217.htm" />
+  <HelpKINode Title="SplitButton.OnClick method" Url="html/3cc36b2b-f8e6-e4f1-078f-4dc70c1742c6.htm" />
+  <HelpKINode Title="SplitButton.OnPropertyChanged method" Url="html/b3130ed2-4108-6fd0-b4e1-6ad522d0bcae.htm" />
+  <HelpKINode Title="SplitButton.SplitButton constructor" Url="html/a19cddfd-0126-e38d-65c5-92b20c9cea71.htm" />
+  <HelpKINode Title="SplitButton.Target property" Url="html/0520b81a-1985-d4a4-6d1f-62bf1d243160.htm" />
+  <HelpKINode Title="SplitButton.TargetProperty field" Url="html/89c1ded1-700f-f856-8928-b1b65a7c8c6d.htm" />
+  <HelpKINode Title="SplitButton.Text property" Url="html/0ae4c433-58b0-1db9-cf54-3da8bb6a3463.htm" />
+  <HelpKINode Title="SplitButton.TextProperty field" Url="html/465941a3-e791-697b-2148-c0a34dd540af.htm" />
+  <HelpKINode Title="SupportAnimatedGif attached property" Url="html/9c582917-079b-85c6-58b8-d1e2c09cfda9.htm" />
+  <HelpKINode Title="SupportAnimatedGIFBehavior class">
+    <HelpKINode Title="SupportAnimatedGIFBehavior Class" Url="html/09b89744-2d45-b9c6-fe29-da5152fb13a6.htm" />
+    <HelpKINode Title="about SupportAnimatedGIFBehavior class" Url="html/09b89744-2d45-b9c6-fe29-da5152fb13a6.htm" />
+    <HelpKINode Title="attached properties" Url="html/b46f7a61-dba5-cc18-7542-05a71256d05e.htm" />
+    <HelpKINode Title="fields" Url="html/aee641fa-59ee-7d1b-7ef9-13af19997085.htm" />
+    <HelpKINode Title="methods" Url="html/939cdd28-fc7a-d8bb-c514-c887d5434584.htm" />
+  </HelpKINode>
+  <HelpKINode Title="SupportAnimatedGIFBehavior.GetSupportAnimatedGif method" Url="html/653424c4-3aca-9032-76a6-07d630fae8a2.htm" />
+  <HelpKINode Title="SupportAnimatedGIFBehavior.SetSupportAnimatedGif method" Url="html/b05d15b6-0e7b-1383-2937-8dac5810cb9c.htm" />
+  <HelpKINode Title="SupportAnimatedGIFBehavior.SupportAnimatedGif attached property" Url="html/9c582917-079b-85c6-58b8-d1e2c09cfda9.htm" />
+  <HelpKINode Title="SupportAnimatedGIFBehavior.SupportAnimatedGifProperty field" Url="html/b6feb45f-9165-88b0-fd32-84f125472ed2.htm" />
+  <HelpKINode Title="SupportAnimatedGifProperty field" Url="html/b6feb45f-9165-88b0-fd32-84f125472ed2.htm" />
+  <HelpKINode Title="TableHeaderRow field" Url="html/81b92c71-694a-0539-ca13-d5ab4968e228.htm" />
+  <HelpKINode Title="TableTitle field" Url="html/89ea82e0-dc40-3a64-935d-b61f5650e988.htm" />
+  <HelpKINode Title="Target property">
+    <HelpKINode Title="DropDownButton.Target Property " Url="html/48ebb2b8-28e4-69ab-43a0-369a35cc5e14.htm" />
+    <HelpKINode Title="SplitButton.Target Property " Url="html/0520b81a-1985-d4a4-6d1f-62bf1d243160.htm" />
+  </HelpKINode>
+  <HelpKINode Title="TargetProperty field">
+    <HelpKINode Title="DropDownButton.TargetProperty Field" Url="html/a5ea11dd-ed2c-feff-d42f-ddca9ccee5e7.htm" />
+    <HelpKINode Title="SplitButton.TargetProperty Field" Url="html/89c1ded1-700f-f856-8928-b1b65a7c8c6d.htm" />
+  </HelpKINode>
+  <HelpKINode Title="Text property">
+    <HelpKINode Title="DropDownButton.Text Property " Url="html/6a8ed892-4794-61a3-b2e0-27244168a7f1.htm" />
+    <HelpKINode Title="SplitButton.Text Property " Url="html/0ae4c433-58b0-1db9-cf54-3da8bb6a3463.htm" />
+  </HelpKINode>
+  <HelpKINode Title="TextBoxBorderColor property" Url="html/54586845-cfec-3f91-f0d0-17ccbb3e83ea.htm" />
+  <HelpKINode Title="TextBoxColor property" Url="html/7d161a0a-77c1-de96-7971-80bb1a0f7a7a.htm" />
+  <HelpKINode Title="TextBoxTextColor property" Url="html/d5af1b7d-5e6b-2d8d-bf12-3905093f8dcb.htm" />
+  <HelpKINode Title="TextProperty field">
+    <HelpKINode Title="DropDownButton.TextProperty Field" Url="html/920e175e-41f9-9c27-49f3-2b7417920ba7.htm" />
+    <HelpKINode Title="SplitButton.TextProperty Field" Url="html/465941a3-e791-697b-2148-c0a34dd540af.htm" />
+  </HelpKINode>
+  <HelpKINode Title="ThemeColors class">
+    <HelpKINode Title="ThemeColors Class" Url="html/4b3fd698-fdd0-5b16-9ae9-a88a76755d99.htm" />
+    <HelpKINode Title="about ThemeColors class" Url="html/4b3fd698-fdd0-5b16-9ae9-a88a76755d99.htm" />
+    <HelpKINode Title="events" Url="html/2970cd3a-db88-d103-cde7-d0f642d915b6.htm" />
+    <HelpKINode Title="methods" Url="html/d2bd31a1-744d-1cc6-3cbc-998aca49667b.htm" />
+    <HelpKINode Title="properties" Url="html/8cab6f0b-7d2b-d0d0-df80-a53aedad5aa8.htm" />
+  </HelpKINode>
+  <HelpKINode Title="ThemeColors.ButtonBackgroundColor property" Url="html/fe5acac3-2d72-32d3-5907-744b8ad3585c.htm" />
+  <HelpKINode Title="ThemeColors.ButtonBorderColor property" Url="html/03fae4d6-4b3f-4196-85b8-44a91cb0734f.htm" />
+  <HelpKINode Title="ThemeColors.ButtonDisabledBackgroundColor property" Url="html/34e8f470-3193-d6b3-0ca8-d15ab9779f8d.htm" />
+  <HelpKINode Title="ThemeColors.ButtonDisabledBorderColor property" Url="html/0a82680d-44b0-a407-b26e-a25cfa42c235.htm" />
+  <HelpKINode Title="ThemeColors.ButtonDisabledForegroundColor property" Url="html/8f22ae98-611f-e842-4d9d-b9b841de74fc.htm" />
+  <HelpKINode Title="ThemeColors.ButtonForegroundColor property" Url="html/e293a579-8101-8603-5ba0-66813faa4839.htm" />
+  <HelpKINode Title="ThemeColors.ButtonHoverBackgroundColor property" Url="html/449e4adb-a186-83dd-b149-767e00dc2379.htm" />
+  <HelpKINode Title="ThemeColors.ButtonHoverBorderColor property" Url="html/640a634f-7dfb-0890-cb52-5b2ed01c5a71.htm" />
+  <HelpKINode Title="ThemeColors.ButtonHoverForegroundColor property" Url="html/a4a13adf-0f15-8cc6-3dc2-1207970c81c4.htm" />
+  <HelpKINode Title="ThemeColors.ButtonPressedBackgroundColor property" Url="html/4ace9616-ff4a-345e-2974-989dcac7d963.htm" />
+  <HelpKINode Title="ThemeColors.ButtonPressedBorderColor property" Url="html/1e43054f-799d-4884-cba1-bbd36c00b8ac.htm" />
+  <HelpKINode Title="ThemeColors.ButtonPressedForegroundColor property" Url="html/e662e6ce-3e15-c1eb-50ad-261d85699ace.htm" />
+  <HelpKINode Title="ThemeColors.ComboBoxButtonMouseOverBackgroundColor property" Url="html/5b4c16b0-c8c5-9b30-842b-1b46157e0c56.htm" />
+  <HelpKINode Title="ThemeColors.ComboBoxDisabledGlyphColor property" Url="html/b81696ad-d3fd-7256-405a-261ec44973a4.htm" />
+  <HelpKINode Title="ThemeColors.ComboBoxGlyphColor property" Url="html/4e509d20-e89b-d933-af13-a57e9c4a4b6b.htm" />
+  <HelpKINode Title="ThemeColors.ComboBoxPopupBackground property" Url="html/3d16a638-98bc-66d6-4a5e-de8bc3fe6c10.htm" />
+  <HelpKINode Title="ThemeColors.DisabledTextColor property" Url="html/01f5c33f-aede-1f8f-5639-4844d6ddd750.htm" />
+  <HelpKINode Title="ThemeColors.Instance property" Url="html/61aca11d-b14c-80a5-519e-1e07ca09bedd.htm" />
+  <HelpKINode Title="ThemeColors.ItemBorderColor property" Url="html/b53c8f48-1641-025f-6bb4-6a8b173ae7fb.htm" />
+  <HelpKINode Title="ThemeColors.ItemColor property" Url="html/1035558f-6ba6-14e3-8002-a77740fd35db.htm" />
+  <HelpKINode Title="ThemeColors.ItemHoverBorderColor property" Url="html/666d3405-e801-aa51-9d03-a1d9d7d18d6c.htm" />
+  <HelpKINode Title="ThemeColors.ItemHoverColor property" Url="html/ac23f9f7-869e-4d72-e5fe-a03b80953f9c.htm" />
+  <HelpKINode Title="ThemeColors.ItemHoverTextColor property" Url="html/1d3c0043-68aa-8174-d64e-eaff9f29f995.htm" />
+  <HelpKINode Title="ThemeColors.ItemSelectedBorderColor property" Url="html/746bd166-b3ef-78d2-d156-964a2e63661b.htm" />
+  <HelpKINode Title="ThemeColors.ItemSelectedBorderNotFocusedColor property" Url="html/04fc0c76-27c1-3f2f-5c33-425185aa6c6c.htm" />
+  <HelpKINode Title="ThemeColors.ItemSelectedColor property" Url="html/1554791e-126d-0881-0247-faff529ca70e.htm" />
+  <HelpKINode Title="ThemeColors.ItemSelectedNotFocusedColor property" Url="html/89ce9872-a243-b8d1-8c08-0cebe255f9cd.htm" />
+  <HelpKINode Title="ThemeColors.ItemSelectedTextColor property" Url="html/23d9a28d-c6de-22b6-99be-22655e10b1cd.htm" />
+  <HelpKINode Title="ThemeColors.ItemSelectedTextNotFocusedColor property" Url="html/828d59ae-d629-9e88-3a33-7359c991806a.htm" />
+  <HelpKINode Title="ThemeColors.ItemTextColor property" Url="html/a0cafee8-0652-7d80-7b67-c95840e344ba.htm" />
+  <HelpKINode Title="ThemeColors.LightBorderColor property" Url="html/3016b650-5958-32a8-02c5-1e50b2865590.htm" />
+  <HelpKINode Title="ThemeColors.LinkTextColor property" Url="html/42671a02-9ef2-934a-882b-84bf61d16360.htm" />
+  <HelpKINode Title="ThemeColors.LinkTextHoverColor property" Url="html/e497a49c-b50e-efa0-bba9-424a97c500c7.htm" />
+  <HelpKINode Title="ThemeColors.MenuBackgroundColor property" Url="html/ed1a7a76-2eb0-dc2f-ee1b-8615c7088a89.htm" />
+  <HelpKINode Title="ThemeColors.MenuBorderColor property" Url="html/fa9ff81e-18c2-40b6-0416-3504eeff9dc7.htm" />
+  <HelpKINode Title="ThemeColors.MenuHoverBackgroundColor property" Url="html/36b3da89-8def-9fb7-b7aa-4c7f1a46f6ba.htm" />
+  <HelpKINode Title="ThemeColors.MenuHoverTextColor property" Url="html/2957cdf2-a743-4dd6-6a2b-a013e2fdee76.htm" />
+  <HelpKINode Title="ThemeColors.MenuSeparatorColor property" Url="html/3cafe49b-fc5a-6cd6-c40a-42b9fc533596.htm" />
+  <HelpKINode Title="ThemeColors.MenuTextColor property" Url="html/30a3a27e-bb07-314e-f120-05371642327c.htm" />
+  <HelpKINode Title="ThemeColors.NotificationColor property" Url="html/8d22fe60-f943-c74b-3041-402be375fe3b.htm" />
+  <HelpKINode Title="ThemeColors.NotificationTextColor property" Url="html/f81ef063-81ea-516b-3352-2483d16c51a4.htm" />
+  <HelpKINode Title="ThemeColors.PropertyChanged event" Url="html/edd24f29-2084-a8ce-1242-2630c33ec314.htm" />
+  <HelpKINode Title="ThemeColors.TextBoxBorderColor property" Url="html/54586845-cfec-3f91-f0d0-17ccbb3e83ea.htm" />
+  <HelpKINode Title="ThemeColors.TextBoxColor property" Url="html/7d161a0a-77c1-de96-7971-80bb1a0f7a7a.htm" />
+  <HelpKINode Title="ThemeColors.TextBoxTextColor property" Url="html/d5af1b7d-5e6b-2d8d-bf12-3905093f8dcb.htm" />
+  <HelpKINode Title="ThemeColors.ToolWindowBackgroundColor property" Url="html/707a483a-094b-d5f2-b1e8-1cdce803927d.htm" />
+  <HelpKINode Title="ThemeColors.ToolWindowBorderColor property" Url="html/242782b3-5365-190f-ed31-9416a522a724.htm" />
+  <HelpKINode Title="ThemeColors.ToolWindowTextColor property" Url="html/bb325325-aef4-1592-4dcc-2e44090e5d75.htm" />
+  <HelpKINode Title="ThemeColors.TreeViewGlyphColor property" Url="html/43a8a7ac-4ba0-ad37-0d1d-03a2b4304a8d.htm" />
+  <HelpKINode Title="ThemeColors.TreeViewHoverGlyphColor property" Url="html/c45e8dcb-2fd6-773e-b164-26ea05fa6c24.htm" />
+  <HelpKINode Title="Title field" Url="html/1b4699eb-4e2f-8a3e-99ff-99bae56ae940.htm" />
+  <HelpKINode Title="ToElementName method" Url="html/d3248ce1-5e97-0a94-cedd-9c6da47c2e2b.htm" />
+  <HelpKINode Title="ToFlowDocument method" Url="html/37690c57-e1b0-f84e-f209-df40430fb532.htm" />
+  <HelpKINode Title="TokenEditorControl class">
+    <HelpKINode Title="TokenEditorControl Class" Url="html/e3948ccc-f6d7-2ab3-f414-1f6708d3f932.htm" />
+    <HelpKINode Title="about TokenEditorControl class" Url="html/e3948ccc-f6d7-2ab3-f414-1f6708d3f932.htm" />
+    <HelpKINode Title="constructor" Url="html/63cca557-757f-1fa7-3db2-4cf3760ed75e.htm" />
+    <HelpKINode Title="events" Url="html/c9bbb86e-56b1-a77f-2544-bd0ec6cae027.htm" />
+    <HelpKINode Title="fields" Url="html/1597a714-de3f-1269-0193-5084e029ce93.htm" />
+    <HelpKINode Title="methods" Url="html/9ac14705-b7de-3908-8fee-cd38434f9416.htm" />
+    <HelpKINode Title="properties" Url="html/7c03e060-0fb8-1e15-08dd-3df656399ab5.htm" />
+  </HelpKINode>
+  <HelpKINode Title="TokenEditorControl.ContentModified event" Url="html/0b3f0588-c42e-8817-9a48-5a152ee8fd68.htm" />
+  <HelpKINode Title="TokenEditorControl.ContentModifiedEvent field" Url="html/f9a4c7ef-7141-4773-74c6-78104ba1e560.htm" />
+  <HelpKINode Title="TokenEditorControl.InitializeComponent method" Url="html/d7216819-e7f3-8437-585a-5900d0409d80.htm" />
+  <HelpKINode Title="TokenEditorControl.LoadTokenFile method" Url="html/d32064a5-d67d-5070-f661-782e0d1c3e73.htm" />
+  <HelpKINode Title="TokenEditorControl.TokenEditorControl constructor" Url="html/63cca557-757f-1fa7-3db2-4cf3760ed75e.htm" />
+  <HelpKINode Title="TokenEditorControl.Tokens property" Url="html/7bc5d389-7bd4-9c29-c66c-55c9515f6340.htm" />
+  <HelpKINode Title="TokenFiles property" Url="html/764f28df-ccfa-f902-ab51-6ed380e37d6a.htm" />
+  <HelpKINode Title="Tokens property">
+    <HelpKINode Title="MamlToFlowDocumentConverter.Tokens Property " Url="html/122f4c40-6322-e7f6-73da-d734eda52d9c.htm" />
+    <HelpKINode Title="TokenEditorControl.Tokens Property " Url="html/7bc5d389-7bd4-9c29-c66c-55c9515f6340.htm" />
+  </HelpKINode>
+  <HelpKINode Title="ToolWindowBackgroundColor property" Url="html/707a483a-094b-d5f2-b1e8-1cdce803927d.htm" />
+  <HelpKINode Title="ToolWindowBorderColor property" Url="html/242782b3-5365-190f-ed31-9416a522a724.htm" />
+  <HelpKINode Title="ToolWindowTextColor property" Url="html/bb325325-aef4-1592-4dcc-2e44090e5d75.htm" />
+  <HelpKINode Title="TopicContent property" Url="html/ca4a180d-9306-6f8a-b34c-0eb9cf12c0d6.htm" />
+  <HelpKINode Title="TopicContentNeeded event" Url="html/7b3a339e-afe5-a16f-977d-14bb1b7c4e83.htm" />
+  <HelpKINode Title="TopicContentNeededEvent field" Url="html/e6fd942c-373e-f3d8-02b1-5792154c3d03.htm" />
+  <HelpKINode Title="TopicContentNeededEventArgs class">
+    <HelpKINode Title="TopicContentNeededEventArgs Class" Url="html/ad3d01b5-c7de-becd-feaa-12648ed52adf.htm" />
+    <HelpKINode Title="about TopicContentNeededEventArgs class" Url="html/ad3d01b5-c7de-becd-feaa-12648ed52adf.htm" />
+    <HelpKINode Title="constructor" Url="html/4d2887d3-bbcb-c974-cd9b-18e661162c60.htm" />
+    <HelpKINode Title="methods" Url="html/da01dea9-6b6c-d04f-2dba-ec114a1658e5.htm" />
+    <HelpKINode Title="properties" Url="html/3191bb13-a8a2-4446-8526-6aaa8f1e70ed.htm" />
+  </HelpKINode>
+  <HelpKINode Title="TopicContentNeededEventArgs.TopicContent property" Url="html/ca4a180d-9306-6f8a-b34c-0eb9cf12c0d6.htm" />
+  <HelpKINode Title="TopicContentNeededEventArgs.TopicContentNeededEventArgs constructor" Url="html/4d2887d3-bbcb-c974-cd9b-18e661162c60.htm" />
+  <HelpKINode Title="TopicContentNeededEventArgs.TopicFilename property" Url="html/55858343-93ee-9e87-5b36-f2d8eadf8522.htm" />
+  <HelpKINode Title="TopicFilename property" Url="html/55858343-93ee-9e87-5b36-f2d8eadf8522.htm" />
+  <HelpKINode Title="TopicPreviewerControl class">
+    <HelpKINode Title="TopicPreviewerControl Class" Url="html/45ecd7aa-10f6-0981-3afd-06128981652b.htm" />
+    <HelpKINode Title="about TopicPreviewerControl class" Url="html/45ecd7aa-10f6-0981-3afd-06128981652b.htm" />
+    <HelpKINode Title="constructor" Url="html/eab0af3a-7a8b-1d3a-ce7d-6fbdd27e68ae.htm" />
+    <HelpKINode Title="events" Url="html/f9715356-73e3-254c-f56c-d1364e7942c6.htm" />
+    <HelpKINode Title="fields" Url="html/1ee60d34-93b2-1163-91a3-10d3e91af43d.htm" />
+    <HelpKINode Title="methods" Url="html/f04040b9-1f0e-3c76-4493-8362f0fad32e.htm" />
+    <HelpKINode Title="properties" Url="html/dbb39758-3be0-b81c-423a-5b5878183387.htm" />
+  </HelpKINode>
+  <HelpKINode Title="TopicPreviewerControl.CurrentProject property" Url="html/f011942d-de4b-72d7-c137-dca59823352b.htm" />
+  <HelpKINode Title="TopicPreviewerControl.CurrentTopic property" Url="html/acbee20f-d859-4a3d-ef32-67eb7a13d12e.htm" />
+  <HelpKINode Title="TopicPreviewerControl.FileContentNeeded event" Url="html/25da1348-668e-525c-ee5b-06d995accff8.htm" />
+  <HelpKINode Title="TopicPreviewerControl.FileContentNeededEvent field" Url="html/e8d7816f-5c0d-9d85-a46a-a744f0fada67.htm" />
+  <HelpKINode Title="TopicPreviewerControl.FindAndDisplay method" Url="html/572b2139-b42a-94c6-128a-f93dd9dea072.htm" />
+  <HelpKINode Title="TopicPreviewerControl.InitializeComponent method" Url="html/3fbfed2b-39fe-264d-a86f-293bba4652d7.htm" />
+  <HelpKINode Title="TopicPreviewerControl.Refresh method" Url="html/61e503d4-fa60-7e7d-09d2-25e2d6879e07.htm" />
+  <HelpKINode Title="TopicPreviewerControl.TopicContentNeeded event" Url="html/7b3a339e-afe5-a16f-977d-14bb1b7c4e83.htm" />
+  <HelpKINode Title="TopicPreviewerControl.TopicContentNeededEvent field" Url="html/e6fd942c-373e-f3d8-02b1-5792154c3d03.htm" />
+  <HelpKINode Title="TopicPreviewerControl.TopicPreviewerControl constructor" Url="html/eab0af3a-7a8b-1d3a-ce7d-6fbdd27e68ae.htm" />
+  <HelpKINode Title="Topics property">
+    <HelpKINode Title="ContentLayoutEditorControl.Topics Property " Url="html/65bdceb3-fc0d-ef0f-f803-1f0ec32ae022.htm" />
+    <HelpKINode Title="SiteMapEditorControl.Topics Property " Url="html/9cd2b108-b2ec-7c8c-6ea1-808befa4b1c9.htm" />
+  </HelpKINode>
+  <HelpKINode Title="TopicTitles property" Url="html/5c423c57-3b59-6b21-7ca0-b5322118b690.htm" />
+  <HelpKINode Title="TreeViewGlyphColor property" Url="html/43a8a7ac-4ba0-ad37-0d1d-03a2b4304a8d.htm" />
+  <HelpKINode Title="TreeViewHoverGlyphColor property" Url="html/c45e8dcb-2fd6-773e-b164-26ea05fa6c24.htm" />
+  <HelpKINode Title="TreeViewItemBehavior class">
+    <HelpKINode Title="TreeViewItemBehavior Class" Url="html/0c6fce32-df3b-de16-ff6f-19e43ed8bef8.htm" />
+    <HelpKINode Title="about TreeViewItemBehavior class" Url="html/0c6fce32-df3b-de16-ff6f-19e43ed8bef8.htm" />
+    <HelpKINode Title="attached properties" Url="html/5b1bec61-23f5-9565-0556-188107adb29c.htm" />
+    <HelpKINode Title="fields" Url="html/77f59045-6f18-99db-121e-7c8188e90926.htm" />
+    <HelpKINode Title="methods" Url="html/5aeb8399-4970-1ab6-b346-9504c939162b.htm" />
+  </HelpKINode>
+  <HelpKINode Title="TreeViewItemBehavior.GetIsBroughtIntoViewWhenSelected method" Url="html/a81c3dc7-f89d-3c62-7fa4-2177bf83dcc3.htm" />
+  <HelpKINode Title="TreeViewItemBehavior.IsBroughtIntoViewWhenSelected attached property" Url="html/6ab1ee44-d0ef-4062-0acd-14c4202e88f1.htm" />
+  <HelpKINode Title="TreeViewItemBehavior.IsBroughtIntoViewWhenSelectedProperty field" Url="html/aba7a271-2de6-2d2e-97e3-87925421d94f.htm" />
+  <HelpKINode Title="TreeViewItemBehavior.SetIsBroughtIntoViewWhenSelected method" Url="html/75478b1c-c184-a401-6150-8e069fa6d63d.htm" />
+  <HelpKINode Title="XamlGeneratedNamespace namespace" Url="html/d56f9899-ea68-441a-14bf-b7e43a3035c7.htm" />
+  <HelpKINode Title="XamlGeneratedNamespace.GeneratedInternalTypeHelper class" Url="html/55cad188-76ae-4170-e16c-99dd7b48db5f.htm" />
+</HelpKI>

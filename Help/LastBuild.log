@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shfbBuild product="Sandcastle Help File Builder and Tools" version="2017.5.15.0" projectFile="C:\Users\User\Documents\Visual Studio 2015\Projects\psronServer\psronservercastle.shfbproj" started="5/24/2017 2:58:03 PM">
+<buildStep step="Initializing">
+Finding tools...
+The Sandcastle tools are located in &#39;C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\&#39;
+Searching for HTML Help 1 compiler...
+    Last step completed in 00:00:00.0010
+</buildStep>
+<buildStep step="Failed">
+
+SHFB: Error BE0037: Could not find the path to the HTML Help 1 compiler. See the error number topic in the help file for details.
+
+   at SandcastleBuilder.Utils.BuildEngine.BuildProcess.FindTools()
+   at SandcastleBuilder.Utils.BuildEngine.BuildProcess.Build()
+
+</buildStep>
+</shfbBuild>
