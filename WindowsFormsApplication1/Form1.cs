@@ -14,6 +14,7 @@ using MySql.Data.MySqlClient;
 using AForge.Video;
 using AForge.Video.DirectShow;
 using System.IO;
+using System.Drawing.Imaging;
 
 namespace WindowsFormsApplication1
 {
@@ -30,6 +31,12 @@ namespace WindowsFormsApplication1
         UdpClient udpClient1 = new UdpClient(11000);
         UdpClient udpClient2 = new UdpClient(11001);
         UdpClient udpClient3 = new UdpClient();
+        UdpClient udpClient4 = new UdpClient();
+
+        ImageConverter converter = new ImageConverter();
+
+        private byte[] imagear;
+        private byte[] arr;
 
         string sqlConnectionDataLocal = "Server=localhost; Uid=root; Pwd=; Database=psron";
         
@@ -272,39 +279,55 @@ namespace WindowsFormsApplication1
         
         private void FinalVideo_NewFrame(object sender, NewFrameEventArgs eventArgs)
         {
-            //Bitmap video1 = (Bitmap)eventArgs.Frame.Clone();
-            //Bitmap video2 = new Bitmap(video1);
-            //MessageBox.Show("ADWF");
+            Bitmap video1 = (Bitmap)eventArgs.Frame.Clone();
+            Bitmap video2 = (Bitmap)eventArgs.Frame.Clone();
+            Bitmap video3 = (Bitmap)eventArgs.Frame.Clone();
+            /*pictureBox1.Image = video1;
+            pictureBox2.Image = video1;*/
 
             bitmaptopicture(eventArgs.Frame, pictureBox1);
             bitmaptopicture(eventArgs.Frame, pictureBox2);
 
-            //bitmaptopicturecropp(eventArgs.Frame, pictureBox6);
+            bitmaptopicturecropp(eventArgs.Frame, pictureBox6);
             bitmaptopicturecropp(eventArgs.Frame, pictureBox5);
 
-            /*pictureBox1.Image = video1;
-            pictureBox2.Image = video1;
-            video2.RotateFlip(RotateFlipType.Rotate180FlipNone);
+
+            /*video2.RotateFlip(RotateFlipType.Rotate180FlipNone);
             video2 = Crop(video2);
-            //video2.RotateFlip(RotateFlipType.Rotate180FlipNone);
+            video2.RotateFlip(RotateFlipType.Rotate180FlipNone);
             pictureBox5.Image = video2;
-            pictureBox6.Image = video2;
-            //wid = (String)video.PhysicalDimension.ToString();*/
+            pictureBox6.Image = video2;*/
+
+            //wid = (String)video.PhysicalDimension.ToString();
+
+            imagear = (byte[])converter.ConvertTo(video3, typeof(byte[]));
+
+            MemoryStream ms = new MemoryStream();
+            Image image = Image.FromStream(new MemoryStream(imagear));
+            image.Save(ms, ImageFormat.Jpeg);
+            arr = ms.ToArray();
+
+            
+
+            if (textBox4.Text.Length > 0)
+                udpClient4.Send(arr, arr.Length);
+
+            //wid = (String)video.PhysicalDimension.ToString();
         }
 
-/*
+
 
         private Bitmap Crop(Bitmap myBitmap)
         {
             // Clone a portion of the Bitmap object.
             var cloneRect = new Rectangle(0, 0, 336, 256);
             System.Drawing.Imaging.PixelFormat format =
-                myBitmap.PixelFormat;
+            myBitmap.PixelFormat;
             Bitmap cloneBitmap = myBitmap.Clone(cloneRect, format);
             //Console.WriteLine(myBitmap.Width + " " + myBitmap.Height);
             // Draw the cloned portion of the Bitmap object.
             return cloneBitmap;
-        }*/
+        }
 
         /// <summary>
         /// Funkcja korzystająca z bibliotegi AForge do uruchomienia wyświetlania video z urządzeń USB.
@@ -319,6 +342,9 @@ namespace WindowsFormsApplication1
             FinalVideo = new VideoCaptureDevice(VideoCaptureDevices[comboBox1.SelectedIndex].MonikerString);
             FinalVideo.NewFrame += FinalVideo_NewFrame;
             FinalVideo.Start();
+
+            if (textBox4.TextLength > 0)
+                udpClient4.Connect(textBox4.Text, 11004);
         }
 
         /// <summary>

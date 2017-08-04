@@ -69,6 +69,8 @@
             this.textBox2 = new System.Windows.Forms.TextBox();
             this.textBox1 = new System.Windows.Forms.TextBox();
             this.label7 = new System.Windows.Forms.Label();
+            this.textBox4 = new System.Windows.Forms.TextBox();
+            this.label11 = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.axVLCPlugin21)).BeginInit();
             this.tableLayoutPanel2.SuspendLayout();
             this.panel1.SuspendLayout();
@@ -466,6 +468,8 @@
             // 
             // tabPage7
             // 
+            this.tabPage7.Controls.Add(this.label11);
+            this.tabPage7.Controls.Add(this.textBox4);
             this.tabPage7.Controls.Add(this.label10);
             this.tabPage7.Controls.Add(this.textBox3);
             this.tabPage7.Controls.Add(this.label8);
@@ -530,6 +534,22 @@
             this.label7.Size = new System.Drawing.Size(76, 13);
             this.label7.TabIndex = 0;
             this.label7.Text = "SmartphoneIp:";
+            // 
+            // textBox4
+            // 
+            this.textBox4.Location = new System.Drawing.Point(126, 178);
+            this.textBox4.Name = "textBox4";
+            this.textBox4.Size = new System.Drawing.Size(183, 20);
+            this.textBox4.TabIndex = 6;
+            // 
+            // label11
+            // 
+            this.label11.AutoSize = true;
+            this.label11.Location = new System.Drawing.Point(44, 181);
+            this.label11.Name = "label11";
+            this.label11.Size = new System.Drawing.Size(61, 13);
+            this.label11.TabIndex = 7;
+            this.label11.Text = "OperatorIP:";
             // 
             // Form1
             // 
@@ -610,6 +630,8 @@
         private System.Windows.Forms.CheckBox checkBox1;
         private System.Windows.Forms.Label label10;
         private System.Windows.Forms.TextBox textBox3;
+        private System.Windows.Forms.Label label11;
+        private System.Windows.Forms.TextBox textBox4;
     }
 }
 
