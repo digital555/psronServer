@@ -15,6 +15,8 @@ using AForge.Video;
 using AForge.Video.DirectShow;
 using System.IO;
 using System.Drawing.Imaging;
+using System.Net.Http;
+using System.Diagnostics;
 
 namespace WindowsFormsApplication1
 {
@@ -43,6 +45,9 @@ namespace WindowsFormsApplication1
 
         Image piesStoi = Image.FromFile("stoi.png");
         Image piesSiedzi = Image.FromFile("siedzi.png");
+        // private object httpClient;
+        private static readonly HttpClient httpClient = new HttpClient();
+        private object cts;
 
         public Form1()
         {
@@ -53,15 +58,19 @@ namespace WindowsFormsApplication1
 
             mControlSmartPhone.Init();
 
+            
+            Debug.WriteLine("dupa");
             InitializePB(pictureBox1);
             InitializePB(pictureBox2);
             InitializePB(pictureBox5);
             InitializePB(pictureBox6);
             pictureBox5.SizeMode = PictureBoxSizeMode.Zoom;
 
-            webBrowser1.Navigate("http://localhost/jakistest/test.html");
+            //webBrowser1.Navigate("http://localhost/jakistest/test.html");
             //webBrowser1.Navigate("http://cyberdog.herokuapp.com/users/sign_in");
-            //webBrowser1.Navigate("http://cyberdog.herokuapp.com/operation_map");
+            webBrowser1.Navigate("http://cyberdog.herokuapp.com/operation_map");
+            //webBrowser1.Navigate("http://10.3.2.196:3000/operation_map");
+
 
             textBox2.Text = "udp://@192.168.1.100:1234";
             textBox3.Text = "192.168.1.120";
@@ -79,6 +88,33 @@ namespace WindowsFormsApplication1
             thr1.Start();
             Thread thr2 = new Thread(dogDataRefresher);
             thr2.Start();
+        }
+
+        static async Task SendDataAsync()
+        {
+            Uri resourceAddress = new Uri("http://10.3.2.196:3000/api/add_drone_trajectory");
+
+            var values = new Dictionary<string, string>
+            {
+               { "latitude", "51.323141" },
+               { "longitude", "24.42342" },
+                {"drone_id",  "2"}
+            };
+
+            var content = new FormUrlEncodedContent(values);
+
+            try
+            {
+                HttpResponseMessage response = await httpClient.PostAsync(resourceAddress,
+                     content);
+            }
+            catch (Exception ex)
+            {
+            }
+            finally
+            {
+
+            }
         }
 
         /// <summary>
@@ -185,7 +221,7 @@ namespace WindowsFormsApplication1
         {
             //("rtsp://192.168.42.1/live");
             //("rtsp://mpv.cdn3.bigCDN.com:554/bigCDN/definst/mp4:bigbuckbunnyiphone_400.mp4");
-            if (textBox2.Text.Length > 0)
+            /*if (textBox2.Text.Length > 0)
             {
                 axVLCPlugin22.playlist.add(textBox2.Text);
                 axVLCPlugin22.playlist.play();
@@ -307,10 +343,14 @@ namespace WindowsFormsApplication1
             image.Save(ms, ImageFormat.Jpeg);
             arr = ms.ToArray();
 
-            
+
 
             if (textBox4.Text.Length > 0)
+            {
+                Debug.WriteLine(arr.Length);
+                if(arr.Length < 60000)
                 udpClient4.Send(arr, arr.Length);
+            }
 
             //wid = (String)video.PhysicalDimension.ToString();
         }
@@ -542,6 +582,16 @@ namespace WindowsFormsApplication1
         private void textBox3_TextChanged(object sender, EventArgs e)
         {
 
+        }
+
+        private void tableLayoutPanel1_Paint_1(object sender, PaintEventArgs e)
+        {
+
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            SendDataAsync();
         }
     }
 }
